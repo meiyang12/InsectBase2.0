@@ -1,0 +1,2524 @@
+[{
+    "label": "Insecta",
+    "children":
+
+        [{
+                "label": "Strepsiptera",
+                "children": [{
+                    "label": "Mengenillidae",
+                    "children": [{
+                        "label": "Mengenilla",
+                        "children": [{
+                            "label": "Mengenilla moldrzyki"
+                        }]
+                    }]
+                }]
+            }, {
+                "label": "Archaeognatha",
+                "children": [{
+                    "label": "Machilidae",
+                    "children": [{
+                        "label": "Machilis",
+                        "children": [{
+                            "label": "Machilis hrabei"
+                        }]
+                    }]
+                }]
+            }, {
+                "label": "Ephemeroptera",
+                "children": [{
+                    "label": "Ephemeridae",
+                    "children": [{
+                        "label": "Ephemera",
+                        "children": [{
+                            "label": "Ephemera danica"
+                        }]
+                    }]
+                }, {
+                    "label": "Baetidae",
+                    "children": [{
+                        "label": "Cloeon",
+                        "children": [{
+                            "label": "Cloeon dipterum"
+                        }]
+                    }, {
+                        "label": "Baetis",
+                        "children": [{
+                            "label": "Baetis rhodani"
+                        }]
+                    }]
+                }]
+            }, {
+                "label": "Trichoptera",
+                "children": [{
+                    "label": "Glossosomatidae",
+                    "children": [{
+                        "label": "Glossosoma",
+                        "children": [{
+                            "label": "Glossosoma conforme"
+                        }]
+                    }]
+                }, {
+                    "label": "Stenopsychidae",
+                    "children": [{
+                        "label": "Stenopsyche",
+                        "children": [{
+                            "label": "Stenopsyche tienmushanensis"
+                        }]
+                    }]
+                }, {
+                    "label": "Limnephilidae",
+                    "children": [{
+                        "label": "Glyphotaelius",
+                        "children": [{
+                            "label": "Glyphotaelius pellucidus"
+                        }]
+                    }, {
+                        "label": "Limnephilus",
+                        "children": [{
+                            "label": "Limnephilus lunatus"
+                        }]
+                    }]
+                }, {
+                    "label": "Hydropsychidae",
+                    "children": [{
+                        "label": "Hydropsyche",
+                        "children": [{
+                            "label": "Hydropsyche tenuis"
+                        }]
+                    }]
+                }, {
+                    "label": "Polycentropodidae",
+                    "children": [{
+                        "label": "Plectrocnemia",
+                        "children": [{
+                            "label": "Plectrocnemia conspersa"
+                        }]
+                    }]
+                }]
+            }, {
+                "label": "Plecoptera",
+                "children": [{
+                    "label": "Perlodidae",
+                    "children": [{
+                        "label": "Isoperla",
+                        "children": [{
+                            "label": "Isoperla grammatica"
+                        }]
+                    }]
+                }, {
+                    "label": "Nemouridae",
+                    "children": [{
+                        "label": "Lednia",
+                        "children": [{
+                            "label": "Lednia tumana"
+                        }]
+                    }, {
+                        "label": "Amphinemura",
+                        "children": [{
+                            "label": "Amphinemura sulcicollis"
+                        }]
+                    }]
+                }]
+            }, {
+                "label": "Thysanoptera",
+                "children": [{
+                    "label": "Thripidae",
+                    "children": [{
+                        "label": "Aptinothrips",
+                        "children": [{
+                            "label": "Aptinothrips rufus"
+                        }]
+                    }, {
+                        "label": "Thrips",
+                        "children": [{
+                            "label": "Thrips palmi"
+                        }]
+                    }, {
+                        "label": "Frankliniella",
+                        "children": [{
+                            "label": "Frankliniella occidentalis"
+                        }]
+                    }]
+                }]
+            }, {
+                "label": "Phthiraptera",
+                "children": [{
+                    "label": "Pediculidae",
+                    "children": [{
+                        "label": "Pediculus",
+                        "children": [{
+                            "label": "Pediculus humanus"
+                        }]
+                    }]
+                }]
+            }, {
+                "label": "Dermaptera",
+                "children": [{
+                    "label": "Anisolabididae",
+                    "children": [{
+                        "label": "Anisolabis",
+                        "children": [{
+                            "label": "Anisolabis maritima"
+                        }]
+                    }]
+                }]
+            }, {
+                "label": "Phasmatodea",
+                "children": [{
+                    "label": "Phasmatidae",
+                    "children": [{
+                        "label": "Medauroidea",
+                        "children": [{
+                            "label": "Medauroidea extradentata"
+                        }]
+                    }, {
+                        "label": "Dryococelus",
+                        "children": [{
+                            "label": "Dryococelus australis"
+                        }]
+                    }, {
+                        "label": "Clitarchus",
+                        "children": [{
+                            "label": "Clitarchus hookeri"
+                        }]
+                    }]
+                }, {
+                    "label": "Timematidae",
+                    "children": [{
+                        "label": "Timema",
+                        "children": [{
+                            "label": "Timema shepardi"
+                        }, {
+                            "label": "Timema genevievae"
+                        }, {
+                            "label": "Timema poppensis"
+                        }, {
+                            "label": "Timema monikensis"
+                        }, {
+                            "label": "Timema tahoe"
+                        }, {
+                            "label": "Timema podura"
+                        }, {
+                            "label": "Timema douglasi"
+                        }, {
+                            "label": "Timema cristinae"
+                        }, {
+                            "label": "Timema californicum"
+                        }, {
+                            "label": "Timema bartmani"
+                        }]
+                    }]
+                }]
+            }, {
+                "label": "Odonata",
+                "children": [{
+                    "label": "Chlorocyphidae",
+                    "children": [{
+                        "label": "Rhinocypha",
+                        "children": [{
+                            "label": "Rhinocypha anisoptera"
+                        }]
+                    }]
+                }, {
+                    "label": "Libellulidae",
+                    "children": [{
+                        "label": "Ladona",
+                        "children": [{
+                            "label": "Ladona fulva"
+                        }]
+                    }]
+                }, {
+                    "label": "Calopterygidae",
+                    "children": [{
+                        "label": "Calopteryx",
+                        "children": [{
+                            "label": "Calopteryx splendens"
+                        }]
+                    }]
+                }]
+            }, {
+                "label": "Siphonaptera",
+                "children": [{
+                    "label": "Pulicidae",
+                    "children": [{
+                        "label": "Ctenocephalides",
+                        "children": [{
+                            "label": "Ctenocephalides felis"
+                        }]
+                    }]
+                }]
+            }, {
+                "label": "Hymenoptera",
+                "children": [{
+                    "label": "Colletidae",
+                    "children": [{
+                        "label": "Colletes",
+                        "children": [{
+                            "label": "Colletes gigas"
+                        }]
+                    }]
+                }, {
+                    "label": "Bethylidae",
+                    "children": [{
+                        "label": "Goniozus",
+                        "children": [{
+                            "label": "Goniozus legneri"
+                        }]
+                    }]
+                }, {
+                    "label": "Ormyridae",
+                    "children": [{
+                        "label": "Ormyrus",
+                        "children": [{
+                            "label": "Ormyrus pomaceus"
+                        }, {
+                            "label": "Ormyrus nitidulus"
+                        }]
+                    }]
+                }, {
+                    "label": "Diprionidae",
+                    "children": [{
+                        "label": "Neodiprion",
+                        "children": [{
+                            "label": "Neodiprion pinetum"
+                        }, {
+                            "label": "Neodiprion lecontei"
+                        }]
+                    }]
+                }, {
+                    "label": "Torymidae",
+                    "children": [{
+                        "label": "Torymus",
+                        "children": [{
+                            "label": "Torymus auratus"
+                        }, {
+                            "label": "Torymus geranii"
+                        }]
+                    }]
+                }, {
+                    "label": "Eupelmidae",
+                    "children": [{
+                        "label": "Eupelmus",
+                        "children": [{
+                            "label": "Eupelmus annulatus"
+                        }, {
+                            "label": "Eupelmus urozonus"
+                        }]
+                    }]
+                }, {
+                    "label": "Eurytomidae",
+                    "children": [{
+                        "label": "Eurytoma",
+                        "children": [{
+                            "label": "Eurytoma adleriae"
+                        }, {
+                            "label": "Eurytoma brunniventris"
+                        }]
+                    }]
+                }, {
+                    "label": "Megastigmidae",
+                    "children": [{
+                        "label": "Megastigmus",
+                        "children": [{
+                            "label": "Megastigmus stigmatizans"
+                        }, {
+                            "label": "Megastigmus dorsalis"
+                        }]
+                    }]
+                }, {
+                    "label": "Orussidae",
+                    "children": [{
+                        "label": "Orussus",
+                        "children": [{
+                            "label": "Orussus abietinus"
+                        }]
+                    }]
+                }, {
+                    "label": "Cephidae",
+                    "children": [{
+                        "label": "Cephus",
+                        "children": [{
+                            "label": "Cephus cinctus"
+                        }]
+                    }]
+                }, {
+                    "label": "Megachilidae",
+                    "children": [{
+                        "label": "Osmia",
+                        "children": [{
+                            "label": "Osmia bicornis"
+                        }, {
+                            "label": "Osmia lignaria"
+                        }]
+                    }, {
+                        "label": "Megachile",
+                        "children": [{
+                            "label": "Megachile rotundata"
+                        }]
+                    }]
+                }, {
+                    "label": "Agaonidae",
+                    "children": [{
+                        "label": "Ceratosolen",
+                        "children": [{
+                            "label": "Ceratosolen solmsi"
+                        }]
+                    }, {
+                        "label": "Eupristina",
+                        "children": [{
+                            "label": "Eupristina verticillata"
+                        }]
+                    }, {
+                        "label": "Pleistodontes",
+                        "children": [{
+                            "label": "Pleistodontes nigriventris"
+                        }]
+                    }]
+                }, {
+                    "label": "Halictidae",
+                    "children": [{
+                        "label": "Nomia",
+                        "children": [{
+                            "label": "Nomia melanderi"
+                        }]
+                    }, {
+                        "label": "Dufourea",
+                        "children": [{
+                            "label": "Dufourea novaeangliae"
+                        }]
+                    }, {
+                        "label": "Megalopta",
+                        "children": [{
+                            "label": "Megalopta genalis"
+                        }]
+                    }, {
+                        "label": "Lasioglossum",
+                        "children": [{
+                            "label": "Lasioglossum albipes"
+                        }]
+                    }]
+                }, {
+                    "label": "Cynipidae",
+                    "children": [{
+                        "label": "Belonocnema",
+                        "children": [{
+                            "label": "Belonocnema treatae"
+                        }]
+                    }, {
+                        "label": "Neuroterus",
+                        "children": [{
+                            "label": "Neuroterus quercusbaccarum"
+                        }]
+                    }, {
+                        "label": "Synergus",
+                        "children": [{
+                            "label": "Synergus japonicus"
+                        }, {
+                            "label": "Synergus umbraculus"
+                        }]
+                    }, {
+                        "label": "Pseudoneuroterus",
+                        "children": [{
+                            "label": "Pseudoneuroterus saliens"
+                        }]
+                    }, {
+                        "label": "Andricus",
+                        "children": [{
+                            "label": "Andricus quercuslanigera"
+                        }, {
+                            "label": "Andricus quercusramuli"
+                        }, {
+                            "label": "Andricus grossulariae"
+                        }, {
+                            "label": "Andricus inflator"
+                        }, {
+                            "label": "Andricus curvator"
+                        }]
+                    }]
+                }, {
+                    "label": "Figitidae",
+                    "children": [{
+                        "label": "Ganaspis",
+                        "children": [{
+                            "label": "Ganaspis brasiliensis"
+                        }]
+                    }, {
+                        "label": "Leptopilina",
+                        "children": [{
+                            "label": "Leptopilina heterotoma"
+                        }, {
+                            "label": "Leptopilina clavipes"
+                        }, {
+                            "label": "Leptopilina boulardi"
+                        }]
+                    }]
+                }, {
+                    "label": "Tenthredinidae",
+                    "children": [{
+                        "label": "Athalia",
+                        "children": [{
+                            "label": "Athalia rosae"
+                        }]
+                    }]
+                }, {
+                    "label": "Braconidae",
+                    "children": [{
+                        "label": "Macrocentrus",
+                        "children": [{
+                            "label": "Macrocentrus cingulum"
+                        }]
+                    }, {
+                        "label": "Chelonus",
+                        "children": [{
+                            "label": "Chelonus insularis"
+                        }]
+                    }, {
+                        "label": "Diachasma",
+                        "children": [{
+                            "label": "Diachasma alloeum"
+                        }]
+                    }, {
+                        "label": "Lysiphlebus",
+                        "children": [{
+                            "label": "Lysiphlebus fabarum"
+                        }]
+                    }, {
+                        "label": "Microplitis",
+                        "children": [{
+                            "label": "Microplitis demolitor"
+                        }]
+                    }, {
+                        "label": "Fopius",
+                        "children": [{
+                            "label": "Fopius arisanus"
+                        }]
+                    }, {
+                        "label": "Aphidius",
+                        "children": [{
+                            "label": "Aphidius ervi"
+                        }]
+                    }, {
+                        "label": "Cotesia",
+                        "children": [{
+                            "label": "Cotesia vestalis"
+                        }, {
+                            "label": "Cotesia sesamiae"
+                        }, {
+                            "label": "Cotesia flavipes"
+                        }, {
+                            "label": "Cotesia chilonis"
+                        }, {
+                            "label": "Cotesia congregata"
+                        }, {
+                            "label": "Cotesia rubecula"
+                        }, {
+                            "label": "Cotesia glomerata"
+                        }]
+                    }]
+                }, {
+                    "label": "Encyrtidae",
+                    "children": [{
+                        "label": "Copidosoma",
+                        "children": [{
+                            "label": "Copidosoma floridanum"
+                        }]
+                    }]
+                }, {
+                    "label": "Formicidae",
+                    "children": [{
+                        "label": "Ooceraea",
+                        "children": [{
+                            "label": "Ooceraea biroi"
+                        }]
+                    }, {
+                        "label": "Nylanderia",
+                        "children": [{
+                            "label": "Nylanderia fulva"
+                        }]
+                    }, {
+                        "label": "Harpegnathos",
+                        "children": [{
+                            "label": "Harpegnathos saltator"
+                        }]
+                    }, {
+                        "label": "Dinoponera",
+                        "children": [{
+                            "label": "Dinoponera quadriceps"
+                        }]
+                    }, {
+                        "label": "Crematogaster",
+                        "children": [{
+                            "label": "Crematogaster levior"
+                        }]
+                    }, {
+                        "label": "Aphaenogaster",
+                        "children": [{
+                            "label": "Aphaenogaster picea"
+                        }, {
+                            "label": "Aphaenogaster miamiana"
+                        }, {
+                            "label": "Aphaenogaster fulva"
+                        }, {
+                            "label": "Aphaenogaster floridana"
+                        }, {
+                            "label": "Aphaenogaster ashmeadi"
+                        }, {
+                            "label": "Aphaenogaster rudis"
+                        }]
+                    }, {
+                        "label": "Odontomachus",
+                        "children": [{
+                            "label": "Odontomachus brunneus"
+                        }]
+                    }, {
+                        "label": "Cyphomyrmex",
+                        "children": [{
+                            "label": "Cyphomyrmex costatus"
+                        }]
+                    }, {
+                        "label": "Vollenhovia",
+                        "children": [{
+                            "label": "Vollenhovia emeryi"
+                        }]
+                    }, {
+                        "label": "Monomorium",
+                        "children": [{
+                            "label": "Monomorium pharaonis"
+                        }]
+                    }, {
+                        "label": "Temnothorax",
+                        "children": [{
+                            "label": "Temnothorax longispinosus"
+                        }, {
+                            "label": "Temnothorax curvispinosus"
+                        }]
+                    }, {
+                        "label": "Tetramorium",
+                        "children": [{
+                            "label": "Tetramorium immigrans"
+                        }, {
+                            "label": "Tetramorium parvispinum"
+                        }, {
+                            "label": "Tetramorium simillimum"
+                        }, {
+                            "label": "Tetramorium bicarinatum"
+                        }]
+                    }, {
+                        "label": "Pseudomyrmex",
+                        "children": [{
+                            "label": "Pseudomyrmex gracilis"
+                        }]
+                    }, {
+                        "label": "Pogonomyrmex",
+                        "children": [{
+                            "label": "Pogonomyrmex barbatus"
+                        }]
+                    }, {
+                        "label": "Camponotus",
+                        "children": [{
+                            "label": "Camponotus floridanus"
+                        }]
+                    }, {
+                        "label": "Acromyrmex",
+                        "children": [{
+                            "label": "Acromyrmex echinatior"
+                        }]
+                    }, {
+                        "label": "Linepithema",
+                        "children": [{
+                            "label": "Linepithema humile"
+                        }]
+                    }, {
+                        "label": "Cataglyphis",
+                        "children": [{
+                            "label": "Cataglyphis hispanica"
+                        }, {
+                            "label": "Cataglyphis niger"
+                        }]
+                    }, {
+                        "label": "Formica",
+                        "children": [{
+                            "label": "Formica selysi"
+                        }, {
+                            "label": "Formica exsecta"
+                        }]
+                    }, {
+                        "label": "Lasius",
+                        "children": [{
+                            "label": "Lasius niger"
+                        }]
+                    }, {
+                        "label": "Wasmannia",
+                        "children": [{
+                            "label": "Wasmannia auropunctata"
+                        }]
+                    }, {
+                        "label": "Trachymyrmex",
+                        "children": [{
+                            "label": "Trachymyrmex cornetzi"
+                        }, {
+                            "label": "Trachymyrmex zeteki"
+                        }, {
+                            "label": "Trachymyrmex septentrionalis"
+                        }]
+                    }, {
+                        "label": "Solenopsis",
+                        "children": [{
+                            "label": "Solenopsis fugax"
+                        }, {
+                            "label": "Solenopsis invicta"
+                        }]
+                    }, {
+                        "label": "Atta",
+                        "children": [{
+                            "label": "Atta colombica"
+                        }, {
+                            "label": "Atta texana"
+                        }, {
+                            "label": "Atta cephalotes"
+                        }]
+                    }]
+                }, {
+                    "label": "Trichogrammatidae",
+                    "children": [{
+                        "label": "Trichogramma",
+                        "children": [{
+                            "label": "Trichogramma brassicae"
+                        }, {
+                            "label": "Trichogramma evanescens"
+                        }, {
+                            "label": "Trichogramma pretiosum"
+                        }]
+                    }]
+                }, {
+                    "label": "Apidae",
+                    "children": [{
+                        "label": "Euglossa",
+                        "children": [{
+                            "label": "Euglossa dilemma"
+                        }]
+                    }, {
+                        "label": "Habropoda",
+                        "children": [{
+                            "label": "Habropoda laboriosa"
+                        }]
+                    }, {
+                        "label": "Frieseomelitta",
+                        "children": [{
+                            "label": "Frieseomelitta varia"
+                        }]
+                    }, {
+                        "label": "Eufriesea",
+                        "children": [{
+                            "label": "Eufriesea mexicana"
+                        }]
+                    }, {
+                        "label": "Melipona",
+                        "children": [{
+                            "label": "Melipona quadrifasciata"
+                        }]
+                    }, {
+                        "label": "Lepidotrigona",
+                        "children": [{
+                            "label": "Lepidotrigona ventralis"
+                        }]
+                    }, {
+                        "label": "Tetragonula",
+                        "children": [{
+                            "label": "Tetragonula davenporti"
+                        }, {
+                            "label": "Tetragonula mellipes"
+                        }, {
+                            "label": "Tetragonula hockingsi"
+                        }, {
+                            "label": "Tetragonula clypearis"
+                        }, {
+                            "label": "Tetragonula carbonaria"
+                        }]
+                    }, {
+                        "label": "Ceratina",
+                        "children": [{
+                            "label": "Ceratina calcarata"
+                        }, {
+                            "label": "Ceratina australensis"
+                        }]
+                    }, {
+                        "label": "Bombus",
+                        "children": [{
+                            "label": "Bombus vancouverensis"
+                        }, {
+                            "label": "Bombus vosnesenskii"
+                        }, {
+                            "label": "Bombus impatiens"
+                        }, {
+                            "label": "Bombus bifarius"
+                        }, {
+                            "label": "Bombus terrestris"
+                        }]
+                    }, {
+                        "label": "Apis",
+                        "children": [{
+                            "label": "Apis laboriosa"
+                        }, {
+                            "label": "Apis florea"
+                        }, {
+                            "label": "Apis dorsata"
+                        }, {
+                            "label": "Apis cerana"
+                        }, {
+                            "label": "Apis mellifera"
+                        }]
+                    }]
+                }, {
+                    "label": "Vespidae",
+                    "children": [{
+                        "label": "Polistes",
+                        "children": [{
+                            "label": "Polistes dominula"
+                        }, {
+                            "label": "Polistes metricus"
+                        }, {
+                            "label": "Polistes canadensis"
+                        }, {
+                            "label": "Polistes dorsalis"
+                        }, {
+                            "label": "Polistes fuscatus"
+                        }]
+                    }, {
+                        "label": "Vespa",
+                        "children": [{
+                            "label": "Vespa mandarinia"
+                        }]
+                    }]
+                }, {
+                    "label": "Pteromalidae",
+                    "children": [{
+                        "label": "Cecidostiba",
+                        "children": [{
+                            "label": "Cecidostiba semifascia"
+                        }, {
+                            "label": "Cecidostiba fungosa"
+                        }]
+                    }, {
+                        "label": "Trichomalopsis",
+                        "children": [{
+                            "label": "Trichomalopsis sarcophagae"
+                        }]
+                    }, {
+                        "label": "Pteromalus",
+                        "children": [{
+                            "label": "Pteromalus puparum"
+                        }]
+                    }, {
+                        "label": "Nasonia",
+                        "children": [{
+                            "label": "Nasonia longicornis"
+                        }, {
+                            "label": "Nasonia giraulti"
+                        }, {
+                            "label": "Nasonia vitripennis"
+                        }]
+                    }]
+                }, {
+                    "label": "Ichneumonidae",
+                    "children": [{
+                        "label": "Hyposoter",
+                        "children": [{
+                            "label": "Hyposoter didymator"
+                        }]
+                    }, {
+                        "label": "Diadegma",
+                        "children": [{
+                            "label": "Diadegma semiclausum"
+                        }]
+                    }, {
+                        "label": "Venturia",
+                        "children": [{
+                            "label": "Venturia canescens"
+                        }]
+                    }, {
+                        "label": "Diadromus",
+                        "children": [{
+                            "label": "Diadromus collaris"
+                        }]
+                    }, {
+                        "label": "Campoletis",
+                        "children": [{
+                            "label": "Campoletis sonorensis"
+                        }]
+                    }]
+                }]
+            }, {
+                "label": "Diptera",
+                "children": [{
+                    "label": "Ephydridae",
+                    "children": [{
+                        "label": "Cirrula",
+                        "children": [{
+                            "label": "Cirrula hians"
+                        }]
+                    }, {
+                        "label": "Ephydra",
+                        "children": [{
+                            "label": "Ephydra gracilis"
+                        }]
+                    }]
+                }, {
+                    "label": "Dolichopodidae",
+                    "children": [{
+                        "label": "Condylostylus",
+                        "children": [{
+                            "label": "Condylostylus patibulatus"
+                        }]
+                    }]
+                }, {
+                    "label": "Syrphidae",
+                    "children": [{
+                        "label": "Eristalis",
+                        "children": [{
+                            "label": "Eristalis dimidiata"
+                        }]
+                    }]
+                }, {
+                    "label": "Rhinophoridae",
+                    "children": [{
+                        "label": "Paykullia",
+                        "children": [{
+                            "label": "Paykullia maculata"
+                        }]
+                    }]
+                }, {
+                    "label": "Asilidae",
+                    "children": [{
+                        "label": "Proctacanthus",
+                        "children": [{
+                            "label": "Proctacanthus coquilletti"
+                        }]
+                    }, {
+                        "label": "Holcocephala",
+                        "children": [{
+                            "label": "Holcocephala fusca"
+                        }]
+                    }, {
+                        "label": "Dasypogon",
+                        "children": [{
+                            "label": "Dasypogon diadema"
+                        }]
+                    }]
+                }, {
+                    "label": "Stratiomyidae",
+                    "children": [{
+                        "label": "Hermetia",
+                        "children": [{
+                            "label": "Hermetia illucens"
+                        }]
+                    }]
+                }, {
+                    "label": "Tipulidae",
+                    "children": [{
+                        "label": "Tipula",
+                        "children": [{
+                            "label": "Tipula oleracea"
+                        }]
+                    }]
+                }, {
+                    "label": "Sepsidae",
+                    "children": [{
+                        "label": "Themira",
+                        "children": [{
+                            "label": "Themira minor"
+                        }]
+                    }]
+                }, {
+                    "label": "Chaoboridae",
+                    "children": [{
+                        "label": "Mochlonyx",
+                        "children": [{
+                            "label": "Mochlonyx cinctipes"
+                        }]
+                    }, {
+                        "label": "Chaoborus",
+                        "children": [{
+                            "label": "Chaoborus trivitattus"
+                        }]
+                    }]
+                }, {
+                    "label": "Agromyzidae",
+                    "children": [{
+                        "label": "Liriomyza",
+                        "children": [{
+                            "label": "Liriomyza trifolii"
+                        }]
+                    }]
+                }, {
+                    "label": "Ceratopogonidae",
+                    "children": [{
+                        "label": "Culicoides",
+                        "children": [{
+                            "label": "Culicoides sonorensis"
+                        }]
+                    }]
+                }, {
+                    "label": "Scatopsidae",
+                    "children": [{
+                        "label": "Coboldia",
+                        "children": [{
+                            "label": "Coboldia fuscipes"
+                        }]
+                    }]
+                }, {
+                    "label": "Diopsidae",
+                    "children": [{
+                        "label": "Sphyracephala",
+                        "children": [{
+                            "label": "Sphyracephala brevicornis"
+                        }]
+                    }, {
+                        "label": "Teleopsis",
+                        "children": [{
+                            "label": "Teleopsis dalmanni"
+                        }]
+                    }]
+                }, {
+                    "label": "Mycetophilidae",
+                    "children": [{
+                        "label": "Bolitophila",
+                        "children": [{
+                            "label": "Bolitophila cinerea"
+                        }]
+                    }]
+                }, {
+                    "label": "Cecidomyiidae",
+                    "children": [{
+                        "label": "Catotricha",
+                        "children": [{
+                            "label": "Catotricha subobsoleta"
+                        }]
+                    }, {
+                        "label": "Contarinia",
+                        "children": [{
+                            "label": "Contarinia nasturtii"
+                        }]
+                    }, {
+                        "label": "Sitodiplosis",
+                        "children": [{
+                            "label": "Sitodiplosis mosellana"
+                        }]
+                    }, {
+                        "label": "Mayetiola",
+                        "children": [{
+                            "label": "Mayetiola destructor"
+                        }]
+                    }]
+                }, {
+                    "label": "Phoridae",
+                    "children": [{
+                        "label": "Megaselia",
+                        "children": [{
+                            "label": "Megaselia abdita"
+                        }, {
+                            "label": "Megaselia scalaris"
+                        }]
+                    }]
+                }, {
+                    "label": "Glossinidae",
+                    "children": [{
+                        "label": "Glossina",
+                        "children": [{
+                            "label": "Glossina brevipalpis"
+                        }, {
+                            "label": "Glossina pallidipes"
+                        }, {
+                            "label": "Glossina palpalis"
+                        }, {
+                            "label": "Glossina fuscipes"
+                        }, {
+                            "label": "Glossina austeni"
+                        }, {
+                            "label": "Glossina morsitans"
+                        }]
+                    }]
+                }, {
+                    "label": "Sarcophagidae",
+                    "children": [{
+                        "label": "Sarcophaga",
+                        "children": [{
+                            "label": "Sarcophaga bullata"
+                        }]
+                    }]
+                }, {
+                    "label": "Calliphoridae",
+                    "children": [{
+                        "label": "Aldrichina",
+                        "children": [{
+                            "label": "Aldrichina grahami"
+                        }]
+                    }, {
+                        "label": "Cochliomyia",
+                        "children": [{
+                            "label": "Cochliomyia hominivorax"
+                        }]
+                    }, {
+                        "label": "Phormia",
+                        "children": [{
+                            "label": "Phormia regina"
+                        }]
+                    }, {
+                        "label": "Lucilia",
+                        "children": [{
+                            "label": "Lucilia sericata"
+                        }, {
+                            "label": "Lucilia cuprina"
+                        }]
+                    }, {
+                        "label": "Calliphora",
+                        "children": [{
+                            "label": "Calliphora vicina"
+                        }]
+                    }]
+                }, {
+                    "label": "Muscidae",
+                    "children": [{
+                        "label": "Stomoxys",
+                        "children": [{
+                            "label": "Stomoxys calcitrans"
+                        }]
+                    }, {
+                        "label": "Musca",
+                        "children": [{
+                            "label": "Musca domestica"
+                        }]
+                    }, {
+                        "label": "Haematobia",
+                        "children": [{
+                            "label": "Haematobia irritans"
+                        }]
+                    }]
+                }, {
+                    "label": "Drosophilidae",
+                    "children": [{
+                        "label": "Scaptomyza",
+                        "children": [{
+                            "label": "Scaptomyza flava"
+                        }]
+                    }, {
+                        "label": "Phortica",
+                        "children": [{
+                            "label": "Phortica variegata"
+                        }]
+                    }, {
+                        "label": "Zaprionus",
+                        "children": [{
+                            "label": "Zaprionus indianus"
+                        }]
+                    }, {
+                        "label": "Scaptodrosophila",
+                        "children": [{
+                            "label": "Scaptodrosophila lebanonensis"
+                        }]
+                    }, {
+                        "label": "Drosophila",
+                        "children": [{
+                            "label": "Drosophila rhopaloa"
+                        }, {
+                            "label": "Drosophila nigromelanica"
+                        }, {
+                            "label": "Drosophila pectinifera"
+                        }, {
+                            "label": "Drosophila bunnanda"
+                        }, {
+                            "label": "Drosophila innubila"
+                        }, {
+                            "label": "Drosophila micromelanica"
+                        }, {
+                            "label": "Drosophila asahinai"
+                        }, {
+                            "label": "Drosophila neonasuta"
+                        }, {
+                            "label": "Drosophila burlai"
+                        }, {
+                            "label": "Drosophila truncata"
+                        }, {
+                            "label": "Drosophila mayri"
+                        }, {
+                            "label": "Drosophila kanapiae"
+                        }, {
+                            "label": "Drosophila tani"
+                        }, {
+                            "label": "Drosophila vulcana"
+                        }, {
+                            "label": "Drosophila biarmipes"
+                        }, {
+                            "label": "Drosophila lacertosa"
+                        }, {
+                            "label": "Drosophila jambulina"
+                        }, {
+                            "label": "Drosophila leontia"
+                        }, {
+                            "label": "Drosophila gunungcola"
+                        }, {
+                            "label": "Drosophila bocki"
+                        }, {
+                            "label": "Drosophila watanabei"
+                        }, {
+                            "label": "Drosophila seguyi"
+                        }, {
+                            "label": "Drosophila nikananu"
+                        }, {
+                            "label": "Drosophila triauraria"
+                        }, {
+                            "label": "Drosophila rufa"
+                        }, {
+                            "label": "Drosophila lacteicornis"
+                        }, {
+                            "label": "Drosophila punjabiensis"
+                        }, {
+                            "label": "Drosophila auraria"
+                        }, {
+                            "label": "Drosophila novamexicana"
+                        }, {
+                            "label": "Drosophila birchii"
+                        }, {
+                            "label": "Drosophila nasuta"
+                        }, {
+                            "label": "Drosophila bipectinata"
+                        }, {
+                            "label": "Drosophila montana"
+                        }, {
+                            "label": "Drosophila americana"
+                        }, {
+                            "label": "Drosophila kikkawai"
+                        }, {
+                            "label": "Drosophila ficusphila"
+                        }, {
+                            "label": "Drosophila elegans"
+                        }, {
+                            "label": "Drosophila busckii"
+                        }, {
+                            "label": "Drosophila bakoue"
+                        }, {
+                            "label": "Drosophila takahashii"
+                        }, {
+                            "label": "Drosophila eugracilis"
+                        }, {
+                            "label": "Drosophila suzukii"
+                        }, {
+                            "label": "Drosophila albomicans"
+                        }, {
+                            "label": "Drosophila obscura"
+                        }, {
+                            "label": "Drosophila serrata"
+                        }, {
+                            "label": "Drosophila guanche"
+                        }, {
+                            "label": "Drosophila arizonae"
+                        }, {
+                            "label": "Drosophila willistoni"
+                        }, {
+                            "label": "Drosophila robusta"
+                        }, {
+                            "label": "Drosophila melanica"
+                        }, {
+                            "label": "Drosophila lowei"
+                        }, {
+                            "label": "Drosophila azteca"
+                        }, {
+                            "label": "Drosophila athabasca"
+                        }, {
+                            "label": "Drosophila yakuba"
+                        }, {
+                            "label": "Drosophila virilis"
+                        }, {
+                            "label": "Drosophila subobscura"
+                        }, {
+                            "label": "Drosophila simulans"
+                        }, {
+                            "label": "Drosophila sechellia"
+                        }, {
+                            "label": "Drosophila pseudoobscura"
+                        }, {
+                            "label": "Drosophila persimilis"
+                        }, {
+                            "label": "Drosophila orena"
+                        }, {
+                            "label": "Drosophila navojoa"
+                        }, {
+                            "label": "Drosophila mojavensis"
+                        }, {
+                            "label": "Drosophila miranda"
+                        }, {
+                            "label": "Drosophila melanogaster"
+                        }, {
+                            "label": "Drosophila mauritiana"
+                        }, {
+                            "label": "Drosophila hydei"
+                        }, {
+                            "label": "Drosophila grimshawi"
+                        }, {
+                            "label": "Drosophila erecta"
+                        }, {
+                            "label": "Drosophila bifasciata"
+                        }, {
+                            "label": "Drosophila ananassae"
+                        }]
+                    }]
+                }, {
+                    "label": "Tephritidae",
+                    "children": [{
+                        "label": "Trupanea",
+                        "children": [{
+                            "label": "Trupanea jonesi"
+                        }]
+                    }, {
+                        "label": "Eutreta",
+                        "children": [{
+                            "label": "Eutreta diana"
+                        }]
+                    }, {
+                        "label": "Tephritis",
+                        "children": [{
+                            "label": "Tephritis californica"
+                        }]
+                    }, {
+                        "label": "Rhagoletis",
+                        "children": [{
+                            "label": "Rhagoletis zephyria"
+                        }]
+                    }, {
+                        "label": "Zeugodacus",
+                        "children": [{
+                            "label": "Zeugodacus cucurbitae"
+                        }]
+                    }, {
+                        "label": "Bactrocera",
+                        "children": [{
+                            "label": "Bactrocera latifrons"
+                        }, {
+                            "label": "Bactrocera oleae"
+                        }, {
+                            "label": "Bactrocera tryoni"
+                        }, {
+                            "label": "Bactrocera dorsalis"
+                        }]
+                    }, {
+                        "label": "Ceratitis",
+                        "children": [{
+                            "label": "Ceratitis capitata"
+                        }]
+                    }]
+                }, {
+                    "label": "Psychodidae",
+                    "children": [{
+                        "label": "Clogmia",
+                        "children": [{
+                            "label": "Clogmia albipunctata"
+                        }]
+                    }, {
+                        "label": "Phlebotomus",
+                        "children": [{
+                            "label": "Phlebotomus papatasi"
+                        }]
+                    }, {
+                        "label": "Lutzomyia",
+                        "children": [{
+                            "label": "Lutzomyia longipalpis"
+                        }]
+                    }]
+                }, {
+                    "label": "Culicidae",
+                    "children": [{
+                        "label": "Culex",
+                        "children": [{
+                            "label": "Culex quinquefasciatus"
+                        }]
+                    }, {
+                        "label": "Anopheles",
+                        "children": [{
+                            "label": "Anopheles fontenillei"
+                        }, {
+                            "label": "Anopheles coluzzii"
+                        }, {
+                            "label": "Anopheles epiroticus"
+                        }, {
+                            "label": "Anopheles nili"
+                        }, {
+                            "label": "Anopheles culicifacies"
+                        }, {
+                            "label": "Anopheles cracens"
+                        }, {
+                            "label": "Anopheles minimus"
+                        }, {
+                            "label": "Anopheles sinensis"
+                        }, {
+                            "label": "Anopheles maculatus"
+                        }, {
+                            "label": "Anopheles farauti"
+                        }, {
+                            "label": "Anopheles funestus"
+                        }, {
+                            "label": "Anopheles darlingi"
+                        }, {
+                            "label": "Anopheles christyi"
+                        }, {
+                            "label": "Anopheles bwambae"
+                        }, {
+                            "label": "Anopheles aquasalis"
+                        }, {
+                            "label": "Anopheles atroparvus"
+                        }, {
+                            "label": "Anopheles quadriannulatus"
+                        }, {
+                            "label": "Anopheles melas"
+                        }, {
+                            "label": "Anopheles stephensi"
+                        }, {
+                            "label": "Anopheles punctulatus"
+                        }, {
+                            "label": "Anopheles merus"
+                        }, {
+                            "label": "Anopheles koliensis"
+                        }, {
+                            "label": "Anopheles arabiensis"
+                        }, {
+                            "label": "Anopheles dirus"
+                        }, {
+                            "label": "Anopheles albimanus"
+                        }, {
+                            "label": "Anopheles gambiae"
+                        }]
+                    }, {
+                        "label": "Aedes",
+                        "children": [{
+                            "label": "Aedes albopictus"
+                        }, {
+                            "label": "Aedes aegypti"
+                        }]
+                    }]
+                }, {
+                    "label": "Chironomidae",
+                    "children": [{
+                        "label": "Clunio",
+                        "children": [{
+                            "label": "Clunio marinus"
+                        }]
+                    }, {
+                        "label": "Parochlus",
+                        "children": [{
+                            "label": "Parochlus steinenii"
+                        }]
+                    }, {
+                        "label": "Belgica",
+                        "children": [{
+                            "label": "Belgica antarctica"
+                        }]
+                    }, {
+                        "label": "Chironomus",
+                        "children": [{
+                            "label": "Chironomus riparius"
+                        }, {
+                            "label": "Chironomus tentans"
+                        }]
+                    }]
+                }]
+            }, {
+                "label": "Lepidoptera",
+                "children": [{
+                    "label": "Riodinidae",
+                    "children": [{
+                        "label": "Calephelis",
+                        "children": [{
+                            "label": "Calephelis virginiensis"
+                        }, {
+                            "label": "Calephelis nemesis"
+                        }]
+                    }]
+                }, {
+                    "label": "Cosmopterigidae",
+                    "children": [{
+                        "label": "Hyposmocoma",
+                        "children": [{
+                            "label": "Hyposmocoma kahamanoa"
+                        }]
+                    }]
+                }, {
+                    "label": "Gelechiidae",
+                    "children": [{
+                        "label": "Tuta",
+                        "children": [{
+                            "label": "Tuta absoluta"
+                        }]
+                    }]
+                }, {
+                    "label": "Hesperiidae",
+                    "children": [{
+                        "label": "Cecropterus",
+                        "children": [{
+                            "label": "Cecropterus lyciades"
+                        }]
+                    }, {
+                        "label": "Megathymus",
+                        "children": [{
+                            "label": "Megathymus ursus"
+                        }]
+                    }, {
+                        "label": "Lerema",
+                        "children": [{
+                            "label": "Lerema accius"
+                        }]
+                    }]
+                }, {
+                    "label": "Lycaenidae",
+                    "children": [{
+                        "label": "Calycopis",
+                        "children": [{
+                            "label": "Calycopis cecrops"
+                        }]
+                    }]
+                }, {
+                    "label": "Hepialidae",
+                    "children": [{
+                        "label": "Triodia",
+                        "children": [{
+                            "label": "Triodia sylvina"
+                        }]
+                    }]
+                }, {
+                    "label": "Lasiocampidae",
+                    "children": [{
+                        "label": "Dendrolimus",
+                        "children": [{
+                            "label": "Dendrolimus punctatus"
+                        }]
+                    }]
+                }, {
+                    "label": "Adelidae",
+                    "children": [{
+                        "label": "Adela",
+                        "children": [{
+                            "label": "Adela reaumurella"
+                        }]
+                    }]
+                }, {
+                    "label": "Notodontidae",
+                    "children": [{
+                        "label": "Thaumetopoea",
+                        "children": [{
+                            "label": "Thaumetopoea pityocampa"
+                        }]
+                    }]
+                }, {
+                    "label": "Gracillariidae",
+                    "children": [{
+                        "label": "Conopomorpha",
+                        "children": [{
+                            "label": "Conopomorpha cramerella"
+                        }]
+                    }, {
+                        "label": "Cameraria",
+                        "children": [{
+                            "label": "Cameraria ohridella"
+                        }]
+                    }]
+                }, {
+                    "label": "Psychidae",
+                    "children": [{
+                        "label": "Eumeta",
+                        "children": [{
+                            "label": "Eumeta japonica"
+                        }]
+                    }]
+                }, {
+                    "label": "Geometridae",
+                    "children": [{
+                        "label": "Operophtera",
+                        "children": [{
+                            "label": "Operophtera brumata"
+                        }]
+                    }]
+                }, {
+                    "label": "Tortricidae",
+                    "children": [{
+                        "label": "Adoxophyes",
+                        "children": [{
+                            "label": "Adoxophyes honmai"
+                        }]
+                    }, {
+                        "label": "Cydia",
+                        "children": [{
+                            "label": "Cydia pomonella"
+                        }]
+                    }]
+                }, {
+                    "label": "Plutellidae",
+                    "children": [{
+                        "label": "Plutella",
+                        "children": [{
+                            "label": "Plutella xylostella"
+                        }]
+                    }]
+                }, {
+                    "label": "Papilionidae",
+                    "children": [{
+                        "label": "Ornithoptera",
+                        "children": [{
+                            "label": "Ornithoptera priamus"
+                        }]
+                    }, {
+                        "label": "Graphium",
+                        "children": [{
+                            "label": "Graphium doson"
+                        }]
+                    }, {
+                        "label": "Papilio",
+                        "children": [{
+                            "label": "Papilio dardanus"
+                        }, {
+                            "label": "Papilio bianor"
+                        }, {
+                            "label": "Papilio memnon"
+                        }, {
+                            "label": "Papilio polytes"
+                        }, {
+                            "label": "Papilio machaon"
+                        }, {
+                            "label": "Papilio xuthus"
+                        }, {
+                            "label": "Papilio glaucus"
+                        }]
+                    }]
+                }, {
+                    "label": "Erebidae",
+                    "children": [{
+                        "label": "Callimorpha",
+                        "children": [{
+                            "label": "Callimorpha dominula"
+                        }]
+                    }, {
+                        "label": "Arctia",
+                        "children": [{
+                            "label": "Arctia plantaginis"
+                        }]
+                    }, {
+                        "label": "Hyphantria",
+                        "children": [{
+                            "label": "Hyphantria cunea"
+                        }]
+                    }]
+                }, {
+                    "label": "Pieridae",
+                    "children": [{
+                        "label": "Leptidea",
+                        "children": [{
+                            "label": "Leptidea sinapis"
+                        }]
+                    }, {
+                        "label": "Delias",
+                        "children": [{
+                            "label": "Delias pasithoe"
+                        }]
+                    }, {
+                        "label": "Colias",
+                        "children": [{
+                            "label": "Colias croceus"
+                        }]
+                    }, {
+                        "label": "Pieris",
+                        "children": [{
+                            "label": "Pieris napi"
+                        }, {
+                            "label": "Pieris rapae"
+                        }]
+                    }, {
+                        "label": "Phoebis",
+                        "children": [{
+                            "label": "Phoebis sennae"
+                        }]
+                    }, {
+                        "label": "Zerene",
+                        "children": [{
+                            "label": "Zerene cesonia"
+                        }]
+                    }]
+                }, {
+                    "label": "Crambidae",
+                    "children": [{
+                        "label": "Cnaphalocrocis",
+                        "children": [{
+                            "label": "Cnaphalocrocis medinalis"
+                        }]
+                    }, {
+                        "label": "Chilo",
+                        "children": [{
+                            "label": "Chilo suppressalis"
+                        }]
+                    }, {
+                        "label": "Ostrinia",
+                        "children": [{
+                            "label": "Ostrinia scapulalis"
+                        }, {
+                            "label": "Ostrinia furnacalis"
+                        }, {
+                            "label": "Ostrinia nubilalis"
+                        }]
+                    }]
+                }, {
+                    "label": "Lymantriidae",
+                    "children": [{
+                        "label": "Lymantria",
+                        "children": [{
+                            "label": "Lymantria dispar"
+                        }]
+                    }]
+                }, {
+                    "label": "Nymphalidae",
+                    "children": [{
+                        "label": "Dione",
+                        "children": [{
+                            "label": "Dione vanillae"
+                        }]
+                    }, {
+                        "label": "Taenaris",
+                        "children": [{
+                            "label": "Taenaris catops"
+                        }]
+                    }, {
+                        "label": "Nymphalis",
+                        "children": [{
+                            "label": "Nymphalis c"
+                        }]
+                    }, {
+                        "label": "Vanessa",
+                        "children": [{
+                            "label": "Vanessa tameamea"
+                        }]
+                    }, {
+                        "label": "Kallima",
+                        "children": [{
+                            "label": "Kallima inachus"
+                        }]
+                    }, {
+                        "label": "Maniola",
+                        "children": [{
+                            "label": "Maniola hyperantus"
+                        }, {
+                            "label": "Maniola jurtina"
+                        }]
+                    }, {
+                        "label": "Hypolimnas",
+                        "children": [{
+                            "label": "Hypolimnas misippus"
+                        }]
+                    }, {
+                        "label": "Pararge",
+                        "children": [{
+                            "label": "Pararge aegeria"
+                        }]
+                    }, {
+                        "label": "Melitaea",
+                        "children": [{
+                            "label": "Melitaea cinxia"
+                        }]
+                    }, {
+                        "label": "Bicyclus",
+                        "children": [{
+                            "label": "Bicyclus anynana"
+                        }]
+                    }, {
+                        "label": "Junonia",
+                        "children": [{
+                            "label": "Junonia coenia"
+                        }]
+                    }, {
+                        "label": "Neruda",
+                        "children": [{
+                            "label": "Neruda aoede"
+                        }]
+                    }, {
+                        "label": "Laparus",
+                        "children": [{
+                            "label": "Laparus doris"
+                        }]
+                    }, {
+                        "label": "Heliconius",
+                        "children": [{
+                            "label": "Heliconius nattereri"
+                        }, {
+                            "label": "Heliconius hermathena"
+                        }, {
+                            "label": "Heliconius hierax"
+                        }, {
+                            "label": "Heliconius timareta"
+                        }, {
+                            "label": "Heliconius hecuba"
+                        }, {
+                            "label": "Heliconius melpomene"
+                        }, {
+                            "label": "Heliconius elevatus"
+                        }, {
+                            "label": "Heliconius himera"
+                        }, {
+                            "label": "Heliconius pardalinus"
+                        }, {
+                            "label": "Heliconius xanthocles"
+                        }, {
+                            "label": "Heliconius erato"
+                        }, {
+                            "label": "Heliconius wallacei"
+                        }, {
+                            "label": "Heliconius pachinus"
+                        }, {
+                            "label": "Heliconius ismenius"
+                        }, {
+                            "label": "Heliconius hecale"
+                        }, {
+                            "label": "Heliconius cydno"
+                        }, {
+                            "label": "Heliconius heurippa"
+                        }, {
+                            "label": "Heliconius numata"
+                        }, {
+                            "label": "Heliconius ethilla"
+                        }]
+                    }, {
+                        "label": "Danaus",
+                        "children": [{
+                            "label": "Danaus melanippus"
+                        }, {
+                            "label": "Danaus chrysippus"
+                        }, {
+                            "label": "Danaus plexippus"
+                        }]
+                    }]
+                }, {
+                    "label": "Pyralidae",
+                    "children": [{
+                        "label": "Amyelois",
+                        "children": [{
+                            "label": "Amyelois transitella"
+                        }]
+                    }, {
+                        "label": "Plodia",
+                        "children": [{
+                            "label": "Plodia interpunctella"
+                        }]
+                    }, {
+                        "label": "Galleria",
+                        "children": [{
+                            "label": "Galleria mellonella"
+                        }]
+                    }]
+                }, {
+                    "label": "Sphingidae",
+                    "children": [{
+                        "label": "Hyles",
+                        "children": [{
+                            "label": "Hyles vespertilio"
+                        }]
+                    }, {
+                        "label": "Manduca",
+                        "children": [{
+                            "label": "Manduca sexta"
+                        }]
+                    }]
+                }, {
+                    "label": "Saturniidae",
+                    "children": [{
+                        "label": "Samia",
+                        "children": [{
+                            "label": "Samia ricini"
+                        }]
+                    }, {
+                        "label": "Actias",
+                        "children": [{
+                            "label": "Actias luna"
+                        }]
+                    }, {
+                        "label": "Antheraea",
+                        "children": [{
+                            "label": "Antheraea yamamai"
+                        }, {
+                            "label": "Antheraea pernyi"
+                        }]
+                    }]
+                }, {
+                    "label": "Noctuidae",
+                    "children": [{
+                        "label": "Busseola",
+                        "children": [{
+                            "label": "Busseola fusca"
+                        }]
+                    }, {
+                        "label": "Mamestra",
+                        "children": [{
+                            "label": "Mamestra configurata"
+                        }]
+                    }, {
+                        "label": "Agrotis",
+                        "children": [{
+                            "label": "Agrotis ipsilon"
+                        }]
+                    }, {
+                        "label": "Helicoverpa",
+                        "children": [{
+                            "label": "Helicoverpa armigera"
+                        }, {
+                            "label": "Helicoverpa zea"
+                        }]
+                    }, {
+                        "label": "Trichoplusia",
+                        "children": [{
+                            "label": "Trichoplusia ni"
+                        }]
+                    }, {
+                        "label": "Spodoptera",
+                        "children": [{
+                            "label": "Spodoptera litura"
+                        }, {
+                            "label": "Spodoptera frugiperda"
+                        }, {
+                            "label": "Spodoptera exigua"
+                        }]
+                    }, {
+                        "label": "Heliothis",
+                        "children": [{
+                            "label": "Heliothis virescens"
+                        }]
+                    }]
+                }, {
+                    "label": "Bombycidae",
+                    "children": [{
+                        "label": "Bombyx",
+                        "children": [{
+                            "label": "Bombyx huttoni"
+                        }, {
+                            "label": "Bombyx mandarina"
+                        }, {
+                            "label": "Bombyx mori"
+                        }]
+                    }]
+                }]
+            }, {
+                "label": "Coleoptera",
+                "children": [{
+                    "label": "Meloidae",
+                    "children": [{
+                        "label": "Hycleus",
+                        "children": [{
+                            "label": "Hycleus cichorii"
+                        }, {
+                            "label": "Hycleus phaleratus"
+                        }]
+                    }]
+                }, {
+                    "label": "Elateridae",
+                    "children": [{
+                        "label": "Ignelater",
+                        "children": [{
+                            "label": "Ignelater luminosus"
+                        }]
+                    }, {
+                        "label": "Alaus",
+                        "children": [{
+                            "label": "Alaus oculatus"
+                        }]
+                    }]
+                }, {
+                    "label": "Carabidae",
+                    "children": [{
+                        "label": "Pogonus",
+                        "children": [{
+                            "label": "Pogonus chalceus"
+                        }]
+                    }]
+                }, {
+                    "label": "Buprestidae",
+                    "children": [{
+                        "label": "Agrilus",
+                        "children": [{
+                            "label": "Agrilus planipennis"
+                        }]
+                    }]
+                }, {
+                    "label": "Cerambycidae",
+                    "children": [{
+                        "label": "Anoplophora",
+                        "children": [{
+                            "label": "Anoplophora glabripennis"
+                        }]
+                    }]
+                }, {
+                    "label": "Staphylinidae",
+                    "children": [{
+                        "label": "Aenictocupidus",
+                        "children": [{
+                            "label": "Aenictocupidus jacobsonorum"
+                        }]
+                    }, {
+                        "label": "Adranes",
+                        "children": [{
+                            "label": "Adranes taylori"
+                        }]
+                    }, {
+                        "label": "Aleochara",
+                        "children": [{
+                            "label": "Aleochara bilineata"
+                        }]
+                    }]
+                }, {
+                    "label": "Nitidulidae",
+                    "children": [{
+                        "label": "Aethina",
+                        "children": [{
+                            "label": "Aethina tumida"
+                        }]
+                    }]
+                }, {
+                    "label": "Silphidae",
+                    "children": [{
+                        "label": "Nicrophorus",
+                        "children": [{
+                            "label": "Nicrophorus vespilloides"
+                        }]
+                    }]
+                }, {
+                    "label": "Coccinellidae",
+                    "children": [{
+                        "label": "Cryptolaemus",
+                        "children": [{
+                            "label": "Cryptolaemus montrouzieri"
+                        }]
+                    }, {
+                        "label": "Propylea",
+                        "children": [{
+                            "label": "Propylea japonica"
+                        }]
+                    }, {
+                        "label": "Harmonia",
+                        "children": [{
+                            "label": "Harmonia axyridis"
+                        }]
+                    }, {
+                        "label": "Coccinella",
+                        "children": [{
+                            "label": "Coccinella septempunctata"
+                        }]
+                    }]
+                }, {
+                    "label": "Silvanidae",
+                    "children": [{
+                        "label": "Oryzaephilus",
+                        "children": [{
+                            "label": "Oryzaephilus surinamensis"
+                        }]
+                    }]
+                }, {
+                    "label": "Chrysomelidae",
+                    "children": [{
+                        "label": "Callosobruchus",
+                        "children": [{
+                            "label": "Callosobruchus maculatus"
+                        }]
+                    }, {
+                        "label": "Diabrotica",
+                        "children": [{
+                            "label": "Diabrotica virgifera"
+                        }]
+                    }, {
+                        "label": "Ophraella",
+                        "children": [{
+                            "label": "Ophraella communa"
+                        }]
+                    }, {
+                        "label": "Leptinotarsa",
+                        "children": [{
+                            "label": "Leptinotarsa decemlineata"
+                        }]
+                    }]
+                }, {
+                    "label": "Tenebrionidae",
+                    "children": [{
+                        "label": "Asbolus",
+                        "children": [{
+                            "label": "Asbolus verrucosus"
+                        }]
+                    }, {
+                        "label": "Tribolium",
+                        "children": [{
+                            "label": "Tribolium castaneum"
+                        }]
+                    }]
+                }, {
+                    "label": "Scarabaeidae",
+                    "children": [{
+                        "label": "Marronus",
+                        "children": [{
+                            "label": "Marronus borbonicus"
+                        }]
+                    }, {
+                        "label": "Chrysina",
+                        "children": [{
+                            "label": "Chrysina resplendens"
+                        }]
+                    }, {
+                        "label": "Oryctes",
+                        "children": [{
+                            "label": "Oryctes borbonicus"
+                        }]
+                    }, {
+                        "label": "Protaetia",
+                        "children": [{
+                            "label": "Protaetia brevitarsis"
+                        }]
+                    }, {
+                        "label": "Onthophagus",
+                        "children": [{
+                            "label": "Onthophagus taurus"
+                        }]
+                    }, {
+                        "label": "Popillia",
+                        "children": [{
+                            "label": "Popillia japonica"
+                        }]
+                    }]
+                }, {
+                    "label": "Lampyridae",
+                    "children": [{
+                        "label": "Abscondita",
+                        "children": [{
+                            "label": "Abscondita terminalis"
+                        }]
+                    }, {
+                        "label": "Pyrocoelia",
+                        "children": [{
+                            "label": "Pyrocoelia pectoralis"
+                        }]
+                    }, {
+                        "label": "Lamprigera",
+                        "children": [{
+                            "label": "Lamprigera yunnana"
+                        }]
+                    }, {
+                        "label": "Photinus",
+                        "children": [{
+                            "label": "Photinus pyralis"
+                        }]
+                    }, {
+                        "label": "Aquatica",
+                        "children": [{
+                            "label": "Aquatica lateralis"
+                        }]
+                    }]
+                }, {
+                    "label": "Curculionidae",
+                    "children": [{
+                        "label": "Rhynchophorus",
+                        "children": [{
+                            "label": "Rhynchophorus ferrugineus"
+                        }]
+                    }, {
+                        "label": "Dendroctonus",
+                        "children": [{
+                            "label": "Dendroctonus ponderosae"
+                        }]
+                    }, {
+                        "label": "Hypothenemus",
+                        "children": [{
+                            "label": "Hypothenemus hampei"
+                        }]
+                    }, {
+                        "label": "Sitophilus",
+                        "children": [{
+                            "label": "Sitophilus oryzae"
+                        }]
+                    }]
+                }]
+            }, {
+                "label": "Hemiptera",
+                "children": [{
+                    "label": "Coccidae",
+                    "children": [{
+                        "label": "Ericerus",
+                        "children": [{
+                            "label": "Ericerus pela"
+                        }]
+                    }]
+                }, {
+                    "label": "Dactylopiidae",
+                    "children": [{
+                        "label": "Dactylopius",
+                        "children": [{
+                            "label": "Dactylopius coccus"
+                        }]
+                    }]
+                }, {
+                    "label": "Pentatomidae",
+                    "children": [{
+                        "label": "Stiretrus",
+                        "children": [{
+                            "label": "Stiretrus anchorago"
+                        }]
+                    }, {
+                        "label": "Euschistus",
+                        "children": [{
+                            "label": "Euschistus heros"
+                        }]
+                    }, {
+                        "label": "Halyomorpha",
+                        "children": [{
+                            "label": "Halyomorpha halys"
+                        }]
+                    }]
+                }, {
+                    "label": "Miridae",
+                    "children": [{
+                        "label": "Nesidiocoris",
+                        "children": [{
+                            "label": "Nesidiocoris tenuis"
+                        }]
+                    }, {
+                        "label": "Apolygus",
+                        "children": [{
+                            "label": "Apolygus lucorum"
+                        }]
+                    }]
+                }, {
+                    "label": "Cicadellidae",
+                    "children": [{
+                        "label": "Homalodisca",
+                        "children": [{
+                            "label": "Homalodisca vitripennis"
+                        }]
+                    }]
+                }, {
+                    "label": "Pemphigidae",
+                    "children": [{
+                        "label": "Eriosoma",
+                        "children": [{
+                            "label": "Eriosoma lanigerum"
+                        }]
+                    }]
+                }, {
+                    "label": "Fulgoridae",
+                    "children": [{
+                        "label": "Zanna",
+                        "children": [{
+                            "label": "Zanna intricata"
+                        }]
+                    }, {
+                        "label": "Lycorma",
+                        "children": [{
+                            "label": "Lycorma delicatula"
+                        }]
+                    }]
+                }, {
+                    "label": "Liviidae",
+                    "children": [{
+                        "label": "Diaphorina",
+                        "children": [{
+                            "label": "Diaphorina citri"
+                        }]
+                    }]
+                }, {
+                    "label": "Delphacidae",
+                    "children": [{
+                        "label": "Laodelphax",
+                        "children": [{
+                            "label": "Laodelphax striatellus"
+                        }]
+                    }, {
+                        "label": "Sogatella",
+                        "children": [{
+                            "label": "Sogatella furcifera"
+                        }]
+                    }, {
+                        "label": "Nilaparvata",
+                        "children": [{
+                            "label": "Nilaparvata lugens"
+                        }]
+                    }]
+                }, {
+                    "label": "Anthocoridae",
+                    "children": [{
+                        "label": "Orius",
+                        "children": [{
+                            "label": "Orius insidiosus"
+                        }]
+                    }]
+                }, {
+                    "label": "Cimicidae",
+                    "children": [{
+                        "label": "Cimex",
+                        "children": [{
+                            "label": "Cimex lectularius"
+                        }]
+                    }]
+                }, {
+                    "label": "Phylloxeridae",
+                    "children": [{
+                        "label": "Daktulosphaira",
+                        "children": [{
+                            "label": "Daktulosphaira vitifoliae"
+                        }]
+                    }]
+                }, {
+                    "label": "Gerridae",
+                    "children": [{
+                        "label": "Gerris",
+                        "children": [{
+                            "label": "Gerris buenoi"
+                        }]
+                    }]
+                }, {
+                    "label": "Cicadidae",
+                    "children": [{
+                        "label": "Magicicada",
+                        "children": [{
+                            "label": "Magicicada septendecula"
+                        }, {
+                            "label": "Magicicada septendecim"
+                        }]
+                    }]
+                }, {
+                    "label": "Aphalaridae",
+                    "children": [{
+                        "label": "Pachypsylla",
+                        "children": [{
+                            "label": "Pachypsylla venusta"
+                        }]
+                    }]
+                }, {
+                    "label": "Aphrophoridae",
+                    "children": [{
+                        "label": "Philaenus",
+                        "children": [{
+                            "label": "Philaenus spumarius"
+                        }]
+                    }]
+                }, {
+                    "label": "Reduviidae",
+                    "children": [{
+                        "label": "Triatoma",
+                        "children": [{
+                            "label": "Triatoma rubrofasciata"
+                        }, {
+                            "label": "Triatoma infestans"
+                        }]
+                    }, {
+                        "label": "Rhodnius",
+                        "children": [{
+                            "label": "Rhodnius prolixus"
+                        }]
+                    }]
+                }, {
+                    "label": "Pseudococcidae",
+                    "children": [{
+                        "label": "Trionymus",
+                        "children": [{
+                            "label": "Trionymus perrisii"
+                        }]
+                    }, {
+                        "label": "Trabutina",
+                        "children": [{
+                            "label": "Trabutina mannipara"
+                        }]
+                    }, {
+                        "label": "Phenacoccus",
+                        "children": [{
+                            "label": "Phenacoccus solenopsis"
+                        }]
+                    }, {
+                        "label": "Paracoccus",
+                        "children": [{
+                            "label": "Paracoccus marginatus"
+                        }]
+                    }, {
+                        "label": "Ferrisia",
+                        "children": [{
+                            "label": "Ferrisia virgata"
+                        }]
+                    }, {
+                        "label": "Maconellicoccus",
+                        "children": [{
+                            "label": "Maconellicoccus hirsutus"
+                        }]
+                    }, {
+                        "label": "Pseudococcus",
+                        "children": [{
+                            "label": "Pseudococcus longispinus"
+                        }]
+                    }]
+                }, {
+                    "label": "Lygaeidae",
+                    "children": [{
+                        "label": "Oncopeltus",
+                        "children": [{
+                            "label": "Oncopeltus fasciatus"
+                        }]
+                    }]
+                }, {
+                    "label": "Aleyrodidae",
+                    "children": [{
+                        "label": "Trialeurodes",
+                        "children": [{
+                            "label": "Trialeurodes vaporariorum"
+                        }]
+                    }, {
+                        "label": "Bemisia",
+                        "children": [{
+                            "label": "Bemisia tabaci"
+                        }]
+                    }]
+                }, {
+                    "label": "Aphididae",
+                    "children": [{
+                        "label": "Melanaphis",
+                        "children": [{
+                            "label": "Melanaphis sacchari"
+                        }]
+                    }, {
+                        "label": "Pentalonia",
+                        "children": [{
+                            "label": "Pentalonia nigronervosa"
+                        }]
+                    }, {
+                        "label": "Cinara",
+                        "children": [{
+                            "label": "Cinara cedri"
+                        }]
+                    }, {
+                        "label": "Aulacorthum",
+                        "children": [{
+                            "label": "Aulacorthum solani"
+                        }]
+                    }, {
+                        "label": "Sipha",
+                        "children": [{
+                            "label": "Sipha flava"
+                        }]
+                    }, {
+                        "label": "Diuraphis",
+                        "children": [{
+                            "label": "Diuraphis noxia"
+                        }]
+                    }, {
+                        "label": "Aphis",
+                        "children": [{
+                            "label": "Aphis craccivora"
+                        }, {
+                            "label": "Aphis glycines"
+                        }, {
+                            "label": "Aphis gossypii"
+                        }]
+                    }, {
+                        "label": "Sitobion",
+                        "children": [{
+                            "label": "Sitobion miscanthi"
+                        }]
+                    }, {
+                        "label": "Rhopalosiphum",
+                        "children": [{
+                            "label": "Rhopalosiphum maidis"
+                        }, {
+                            "label": "Rhopalosiphum padi"
+                        }]
+                    }, {
+                        "label": "Schizaphis",
+                        "children": [{
+                            "label": "Schizaphis graminum"
+                        }]
+                    }, {
+                        "label": "Myzus",
+                        "children": [{
+                            "label": "Myzus cerasi"
+                        }, {
+                            "label": "Myzus persicae"
+                        }]
+                    }, {
+                        "label": "Acyrthosiphon",
+                        "children": [{
+                            "label": "Acyrthosiphon pisum"
+                        }]
+                    }]
+                }]
+            }, {
+                "label": "Orthoptera",
+                "children": [{
+                    "label": "Gryllidae",
+                    "children": [{
+                        "label": "Teleogryllus",
+                        "children": [{
+                            "label": "Teleogryllus occipitalis"
+                        }]
+                    }, {
+                        "label": "Laupala",
+                        "children": [{
+                            "label": "Laupala kohalensis"
+                        }]
+                    }]
+                }, {
+                    "label": "Acrididae",
+                    "children": [{
+                        "label": "Xenocatantops",
+                        "children": [{
+                            "label": "Xenocatantops brachycerus"
+                        }]
+                    }, {
+                        "label": "Locusta",
+                        "children": [{
+                            "label": "Locusta migratoria"
+                        }]
+                    }]
+                }]
+            },
+            {
+                "label": "Blattodea",
+                "children": [{
+                        "label": "Termopsidae",
+                        "children": [{
+                            "label": "Zootermopsis",
+                            "children": [{
+                                "label": "Zootermopsis nevadensis"
+                            }]
+                        }]
+                    },
+                    {
+                        "label": "Kalotermitidae",
+                        "children": [{
+                            "label": "Cryptotermes",
+                            "children": [{
+                                "label": "Cryptotermes secundus"
+                            }]
+                        }]
+                    },
+                    {
+                        "label": "Rhinotermitidae",
+                        "children": [{
+                            "label": "Coptotermes",
+                            "children": [{
+                                "label": "Coptotermes formosanus"
+                            }]
+                        }]
+                    },
+                    {
+                        "label": "Blattidae",
+                        "children": [{
+                            "label": "Periplaneta",
+                            "children": [{
+                                "label": "Periplaneta americana"
+                            }]
+                        }]
+                    },
+                    {
+                        "label": "Ectobiidae",
+                        "children": [{
+                            "label": "Blattella",
+                            "children": [{
+                                "label": "Blattella germanica"
+                            }]
+                        }]
+                    }
+                ]
+            }
+        ]
+}]
