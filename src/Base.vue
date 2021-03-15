@@ -3,7 +3,7 @@
     <q-drawer show-if-above v-model="leftDrawerOpen" side="left" class="shadow-10">
       <!-- drawer content -->
       <q-scroll-area
-        style="height: calc(100%); opacity: 0.8"
+        style="height: calc(100%)"
         class="bg-green-10 text-white text-center text-body2"
       >
         <h5>
@@ -14,7 +14,7 @@
           <q-item clickable v-ripple to="/">
             <q-item-section>Home</q-item-section>
           </q-item>
-          <q-item clickable v-ripple>
+          <q-item clickable v-ripple to="/Search">
             <q-item-section>Search</q-item-section>
           </q-item>
           <q-item clickable v-ripple to="/Organism">
@@ -67,6 +67,14 @@
             <q-item-section>Links</q-item-section>
           </q-item>
           <q-item clickable v-ripple>
+            <q-item-section>Help</q-item-section>
+          </q-item>
+          <q-item
+            clickable
+            tag="a"
+            target="_blank"
+            href="https://person.zju.edu.cn/en/lifei"
+          >
             <q-item-section>About us</q-item-section>
           </q-item>
         </q-list>

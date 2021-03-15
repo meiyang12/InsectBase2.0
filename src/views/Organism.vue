@@ -3,8 +3,10 @@
     <div class="q-pa-md">
       <q-card class="my-card shadow-0 q-px-lg">
         <q-card-section>
-          <strong style="font-size: 1.2rem">Organism</strong> . Lorem ipsum dolor sit
-          amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          <strong style="font-size: 1.2rem" class="text-green-8">Organism</strong> . Lorem
+          ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
           dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
           do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor
           sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -13,8 +15,7 @@
           ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
           consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-          do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          dolore magna aliqua.
         </q-card-section>
       </q-card>
     </div>
@@ -25,7 +26,7 @@
           <q-splitter v-model="splitterModel" style="height: 800px">
             <template v-slot:before>
               <div class="q-pa-md">
-                <q-input ref="filterRef" filled v-model="filter" label="Search">
+                <q-input ref="filterRef" rounded outlined v-model="filter" label="Search">
                   <template v-slot:append>
                     <q-icon
                       v-if="filter !== ''"
@@ -53,45 +54,39 @@
                 transition-prev="jump-up"
                 transition-next="jump-up"
               >
-                <q-tab-panel name="Strepsiptera">
-                  <div class="text-h4 q-mb-md">Strepsiptera</div>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-                    praesentium cumque magnam odio iure quidem, quod illum numquam
-                    possimus obcaecati commodi minima assumenda consectetur culpa fuga
-                    nulla ullam. In, libero.
-                  </p>
-                </q-tab-panel>
-
-                <q-tab-panel name="Food">
-                  <div class="text-h4 q-mb-md">Food</div>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-                    praesentium cumque magnam odio iure quidem, quod illum numquam
-                    possimus obcaecati commodi minima assumenda consectetur culpa fuga
-                    nulla ullam. In, libero.
-                  </p>
-                  <q-btn>x</q-btn>
-                </q-tab-panel>
-
-                <q-tab-panel name="Room service">
-                  <div class="text-h4 q-mb-md">Room service</div>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-                    praesentium cumque magnam odio iure quidem, quod illum numquam
-                    possimus obcaecati commodi minima assumenda consectetur culpa fuga
-                    nulla ullam. In, libero.
-                  </p>
-                </q-tab-panel>
-
-                <q-tab-panel name="Room view">
-                  <div class="text-h4 q-mb-md">Room view</div>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-                    praesentium cumque magnam odio iure quidem, quod illum numquam
-                    possimus obcaecati commodi minima assumenda consectetur culpa fuga
-                    nulla ullam. In, libero.
-                  </p>
+                <q-tab-panel v-for="item in genome_list" :key="item.id" :name="item.name">
+                  <q-card class="my-card">
+                    <q-card-section horizontal>
+                      <q-card-section class="q-pt-xs">
+                        <div class="text-overline text-orange-9">Overline</div>
+                        <div
+                          class="text-h5 q-mt-sm q-mb-xs text-italic"
+                          v-if="item.class == 'genus' || item.class == 'species'"
+                        >
+                          {{ item.name }}
+                        </div>
+                        <div class="text-h5 q-mt-sm q-mb-xs" v-else>
+                          {{ item.name }}
+                        </div>
+                        <div class="text-caption">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </div>
+                      </q-card-section>
+                      <q-card-section class="col-5 flex flex-center">
+                        <q-img
+                          class="rounded-borders"
+                          src="https://cdn.quasar.dev/img/parallax2.jpg"
+                        />
+                      </q-card-section>
+                    </q-card-section>
+                    <div v-if="item.class == 'species'">
+                      <q-separator />
+                      <q-card-actions class="justify-center">
+                        <q-btn outline color="secondary" label="Learn More" />
+                      </q-card-actions>
+                    </div>
+                  </q-card>
                 </q-tab-panel>
               </q-tab-panels>
             </template>
@@ -105,12 +100,16 @@
 <script>
 import { ref } from "vue";
 import genome from "../data/genome.json";
+import genome_list from "../data/genome_list.json";
 
 export default {
+  components: {},
   setup() {
     const filter = ref("");
     const filterRef = ref(null);
     return {
+      genome_list,
+
       basic: ref(false),
       fixed: ref(false),
 

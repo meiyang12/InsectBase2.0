@@ -1,0 +1,41 @@
+[{
+        "id": 1,
+        "name": "Insecta",
+        "image": "URL1",
+        "info": "info",
+        "URL": "URL21",
+        "class": "class"
+    },
+    {
+        "id": 2,
+        "name": "Strepsiptera",
+        "image": "URL2",
+        "info": "info",
+        "URL": "URL22",
+        "class": "order"
+    },
+    {
+        "id": 3,
+        "name": "Mengenillidae",
+        "image": "URL3",
+        "info": "info",
+        "URL": "URL23",
+        "class": "family"
+    },
+    {
+        "id": 4,
+        "name": "Mengenilla",
+        "image": "URL4",
+        "info": "info",
+        "URL": "URL24",
+        "class": "genus"
+    },
+    {
+        "id": 5,
+        "name": "Mengenilla moldrzyki",
+        "image": "URL5",
+        "info": "info",
+        "URL": "URL25",
+        "class": "species"
+    }
+]

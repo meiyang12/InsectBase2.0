@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="row justify-center">
-      <div class="q-pa-lg justify-center col-9">
+      <div class="q-pa-lg justify-center col-12">
         <q-carousel
           animated
           v-model="slide"
@@ -41,18 +41,21 @@
     <div class="q-pa-md">
       <q-card class="my-card shadow-0 q-px-lg">
         <q-card-section>
-          <strong><i style="font-size: 1.2rem"> InsectBase2.0</i></strong> . Lorem ipsum
-          dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing
-          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem
-          ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          <strong
+            ><i style="font-size: 1.2rem" class="text-green-8"> InsectBase2.0</i></strong
+          >
+          . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
           consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
           dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
           do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor
           sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
           labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing
-          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem
+          ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua.
         </q-card-section>
       </q-card>
     </div>
