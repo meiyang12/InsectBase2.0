@@ -3,7 +3,7 @@
     <div class="q-pa-md">
       <q-card class="my-card shadow-0 q-px-lg">
         <q-card-section>
-          <strong style="font-size: 1.2rem" class="text-green-8">Organism</strong> . Lorem
+          <strong class="text-green-8 text-h4">Organism</strong> . Lorem
           ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
           consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -23,10 +23,19 @@
     <div class="q-px-md">
       <q-card class="my-card shadow-0 q-px-lg">
         <q-card-section>
-          <q-splitter v-model="splitterModel" style="height: 800px">
+          <q-splitter
+            v-model="splitterModel"
+            style="height: 800px"
+          >
             <template v-slot:before>
               <div class="q-pa-md">
-                <q-input ref="filterRef" rounded outlined v-model="filter" label="Search">
+                <q-input
+                  ref="filterRef"
+                  rounded
+                  outlined
+                  v-model="filter"
+                  label="Search"
+                >
                   <template v-slot:append>
                     <q-icon
                       v-if="filter !== ''"
@@ -54,7 +63,11 @@
                 transition-prev="jump-up"
                 transition-next="jump-up"
               >
-                <q-tab-panel v-for="item in genome_list" :key="item.id" :name="item.name">
+                <q-tab-panel
+                  v-for="item in genome_list"
+                  :key="item.id"
+                  :name="item.name"
+                >
                   <q-card class="my-card">
                     <q-card-section horizontal>
                       <q-card-section class="q-pt-xs">
@@ -65,7 +78,10 @@
                         >
                           {{ item.name }}
                         </div>
-                        <div class="text-h5 q-mt-sm q-mb-xs" v-else>
+                        <div
+                          class="text-h5 q-mt-sm q-mb-xs"
+                          v-else
+                        >
                           {{ item.name }}
                         </div>
                         <div class="text-caption">
@@ -83,7 +99,12 @@
                     <div v-if="item.class == 'species'">
                       <q-separator />
                       <q-card-actions class="justify-center">
-                        <q-btn outline color="secondary" label="Learn More" />
+                        <q-btn
+                          outline
+                          color="secondary"
+                          label="Learn More"
+                          :to="{ name: 'OrganismDetail', params: { id: item.id }}"
+                        />
                       </q-card-actions>
                     </div>
                   </q-card>
@@ -104,7 +125,7 @@ import genome_list from "../data/genome_list.json";
 
 export default {
   components: {},
-  setup() {
+  setup () {
     const filter = ref("");
     const filterRef = ref(null);
     return {
@@ -120,7 +141,7 @@ export default {
 
       simple: genome,
 
-      resetFilter() {
+      resetFilter () {
         filter.value = "";
         filterRef.value.focus();
       },

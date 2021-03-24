@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="row justify-center">
-      <div class="q-pa-lg justify-center col-12">
+      <div class="q-px-lg q-pt-lg justify-center col-12">
         <q-carousel
           animated
           v-model="slide"
@@ -41,9 +41,7 @@
     <div class="q-pa-md">
       <q-card class="my-card shadow-0 q-px-lg">
         <q-card-section>
-          <strong
-            ><i style="font-size: 1.2rem" class="text-green-8"> InsectBase2.0</i></strong
-          >
+          <strong><i class="text-green-8 text-h5"> InsectBase2.0</i></strong>
           . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
           consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -61,7 +59,10 @@
     </div>
     <div class="q-px-md">
       <q-card class="my-card shadow-0 q-px-lg">
-        <q-card-section id="main" style="width: 100%; height: 400px"> </q-card-section>
+        <q-card-section
+          id="main"
+          style="width: 100%; height: 400px"
+        > </q-card-section>
       </q-card>
     </div>
   </div>
@@ -72,7 +73,7 @@ import { onMounted, ref } from "vue";
 import * as echarts from "echarts";
 
 export default {
-  setup() {
+  setup () {
     const echart_genome = () => {
       var myChart = echarts.init(document.getElementById("main"));
       var dataName = [

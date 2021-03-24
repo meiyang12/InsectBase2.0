@@ -3,7 +3,7 @@
     <div class="q-pa-md">
       <q-card class="my-card shadow-0 q-px-lg">
         <q-card-section>
-          <strong style="font-size: 1.2rem" class="text-green-8">Search</strong> . Lorem
+          <strong class="text-green-8 text-h4">Search</strong> . Lorem
           ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
           consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -38,8 +38,16 @@
                 <q-icon name="search" />
               </template>
             </q-input>
-            <q-separator color="primary" size="0.2rem" />
-            <q-chip color="primary" text-color="white" icon="search" outline>
+            <q-separator
+              color="primary"
+              size="0.2rem"
+            />
+            <q-chip
+              color="primary"
+              text-color="white"
+              icon="search"
+              outline
+            >
               Advanced search
             </q-chip>
             <q-select
@@ -103,7 +111,7 @@
 <script>
 import { ref } from "vue";
 export default {
-  setup() {
+  setup () {
     return {
       text: ref(""),
       ph: ref(""),

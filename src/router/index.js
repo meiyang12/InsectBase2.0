@@ -8,6 +8,10 @@ const routes = [{
     path: '/',
     name: 'Home',
     component: Home
+  }, {
+    path: '/Search',
+    name: 'Search',
+    component: () => import('../views/Search.vue')
   },
   {
     path: '/Organism',
@@ -18,12 +22,44 @@ const routes = [{
     component: () => import( /* webpackChunkName: "about" */ '../views/Organism.vue')
   },
   {
-    path: '/Search',
-    name: 'Search',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import( /* webpackChunkName: "about" */ '../views/Search.vue')
+    path: '/Organism/:id',
+    name: 'OrganismDetail',
+    component: () => import('../views/OrganismDetail.vue')
+  },
+  {
+    path: '/Pcg',
+    name: 'Pcg',
+    component: () => import('../views/Pcg.vue')
+  },
+  {
+    path: '/geneFamily',
+    name: 'geneFamily',
+    component: () => import('../views/geneFamily.vue')
+  },
+  {
+    path: '/JBrowse',
+    name: 'JBrowse',
+    component: () => import('../views/JBrowse.vue')
+  },
+  {
+    path: '/Blast',
+    name: 'Blast',
+    component: () => import('../views/BLAST.vue')
+  },
+  {
+    path: '/Synteny',
+    name: 'Synteny',
+    component: () => import('../views/Synteny.vue')
+  },
+  {
+    path: '/GeneAnno',
+    name: 'GeneAnno',
+    component: () => import('../views/GeneAnno.vue')
+  },
+  {
+    path: '/Links',
+    name: 'Links',
+    component: () => import('../views/Links.vue')
   }
 ]
 
