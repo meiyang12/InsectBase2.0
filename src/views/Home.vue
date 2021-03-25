@@ -41,8 +41,14 @@
     <div class="q-pa-md">
       <q-card class="my-card shadow-0 q-px-lg">
         <q-card-section>
-          <strong><i class="text-green-8 text-h5"> InsectBase2.0</i></strong>
-          . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          <span class="text-h5 text-green-10">
+            InsectBase
+            <q-badge
+              align="top"
+              color="green"
+            > v2</q-badge>
+          </span>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
           consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
           dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -57,13 +63,75 @@
         </q-card-section>
       </q-card>
     </div>
-    <div class="q-px-md">
-      <q-card class="my-card shadow-0 q-px-lg">
-        <q-card-section
-          id="main"
-          style="width: 100%; height: 400px"
-        > </q-card-section>
-      </q-card>
+
+    <div class="row q-px-md q-pb-md q-col-gutter-sm">
+      <div class="col-9">
+        <q-card class="my-card q-pb-md shadow-0">
+          <q-card-section
+            class="q-pb-md"
+            id="main"
+            style="width: 100%; height: 400px"
+          > </q-card-section>
+        </q-card>
+      </div>
+      <div class="col-3">
+        <q-card class="my-card shadow-0">
+          <q-card-section>
+            <q-item-label
+              header
+              class="text-h5"
+            >News</q-item-label>
+            <q-list>
+              <q-item>
+                <q-item-section>
+                  <q-item-label>New genome</q-item-label>
+                  <q-item-label
+                    caption
+                    lines="2"
+                  >Secondary line text. Lorem ipsum dolor sit amet, consectetur adipiscit elit.</q-item-label>
+                </q-item-section>
+
+                <q-item-section
+                  side
+                  top
+                >
+                  <q-item-label caption>June 6th</q-item-label>
+                  <q-icon
+                    name="campaign"
+                    color="blue"
+                  />
+                </q-item-section>
+              </q-item>
+
+              <q-separator
+                spaced
+                inset
+              />
+
+              <q-item>
+                <q-item-section>
+                  <q-item-label>New miRNA</q-item-label>
+                  <q-item-label caption>Secondary line text. Lorem ipsum dolor sit amet, consectetur adipiscit elit.</q-item-label>
+                </q-item-section>
+
+                <q-item-section
+                  side
+                  top
+                >
+                  <q-item-label caption>May 6th</q-item-label>
+                  <q-icon
+                    name="campaign"
+                    color="blue"
+                  />
+                </q-item-section>
+              </q-item>
+
+            </q-list>
+
+          </q-card-section>
+        </q-card>
+      </div>
+
     </div>
   </div>
 </template>
@@ -111,7 +179,7 @@ export default {
         grid: {
           left: "3%",
           right: "4%",
-          bottom: "3%",
+          bottom: "1%",
           containLabel: true,
         },
         xAxis: [

@@ -13,11 +13,14 @@
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "echarts": "^5.0.2",
+    "echarts-wordcloud": "^2.0.0",
     "qs": "^6.9.6",
     "quasar": "^2.0.0-beta.1",
     "vue": "^3.0.0",
     "vue-cli-plugin-quasar": "^4.0.0-beta.1",
     "vue-router": "^4.0.0-0",
+    "vue-wordcloud": "^1.1.1",
+    "vuewordcloud": "^18.7.12",
     "vuex": "^4.0.0-0"
   },
   "devDependencies": {
