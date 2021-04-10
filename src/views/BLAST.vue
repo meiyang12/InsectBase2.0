@@ -3,7 +3,7 @@
     <div class="q-pa-md">
       <q-card class="my-card shadow-0 q-px-lg">
         <q-card-section>
-          <strong class="text-green-8 text-h4">BLAST</strong> . Lorem
+          <span class="text-green-10 text-h5 text-bold">BLAST</span> . Lorem
           ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
           consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -27,10 +27,15 @@
             class="q-gutter-md q-pa-md"
           >
             <q-select
-              rounded
               outlined
-              v-model="model"
-              :options="options"
+              v-model="blast"
+              :options="blastoptions"
+              style="max-width: 10%"
+            />
+            <q-select
+              outlined
+              v-model="evalue"
+              :options="evalueoptions"
               style="max-width: 10%"
             />
             <div style="max-width: 80%;">
@@ -41,7 +46,7 @@
               />
               or
               <q-file
-                color="teal"
+                color="primary"
                 outlined
                 v-model="model"
                 label="Upload"
@@ -62,7 +67,7 @@
                 label="Reset"
                 type="reset"
                 color="primary"
-                flat
+                outline
                 class="q-ml-sm"
               />
             </div>
@@ -79,10 +84,15 @@ import { ref } from 'vue'
 export default {
   setup () {
     return {
-      model: ref('blastn'),
-      options: [
+      blast: ref('blastn'),
+      blastoptions: [
         'blastn', 'blastp', 'tblastn', 'blastx'
-      ]
+      ],
+
+      evalue: ref('1e-5'),
+      evalueoptions: [
+        '1e-1', '1e-3', '1e-5', '1e-10'
+      ],
     }
   }
 }

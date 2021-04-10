@@ -41,12 +41,12 @@
     <div class="q-pa-md">
       <q-card class="my-card shadow-0 q-px-lg">
         <q-card-section>
-          <span class="text-h5 text-green-10">
+          <span class="text-h5 text-green-10 text-bold">
             InsectBase
             <q-badge
-              align="top"
-              color="green"
-            > v2</q-badge>
+              align="middle"
+              color="green-10"
+            > v2 </q-badge>
           </span>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,

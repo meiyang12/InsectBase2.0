@@ -5,16 +5,18 @@
       v-model="leftDrawerOpen"
       side="left"
       class="shadow-10"
+      :width="230"
     >
       <q-scroll-area
         style="height: calc(100%);background-color:#393e46"
         class="text-white text-center text-body2"
       >
         <div
-          class="text-h4 q-pa-lg shadow-10 text-italic text-bold"
+          class="text-h5 q-pa-lg shadow-10 text-italic text-bold"
           style="font-family:Times New Roman;background-color:#222831"
         >
-          InsectBase
+
+          InsectBase 2.0
         </div>
         <q-list
           padding
@@ -37,21 +39,36 @@
           >
             <q-item-section>Search</q-item-section>
           </q-item>
-          <q-item
-            clickable
-            v-ripple
-            active-class="my-menu-link"
-            to="/Organism"
+
+          <q-expansion-item
+            :content-inset-level="0"
+            expand-separator
+            label="Organism"
+            group="group"
           >
-            <q-item-section>Organism</q-item-section>
-          </q-item>
+            <q-item
+              clickable
+              v-ripple
+              style="background-color:#f8f4e1"
+              to="/Organism"
+            >
+              <q-item-section class="text-black">Tree</q-item-section>
+            </q-item>
+            <q-item
+              clickable
+              v-ripple
+              style="background-color:#f8f4e1"
+              to="Classify"
+            >
+              <q-item-section class="text-black">Classification</q-item-section>
+            </q-item>
+          </q-expansion-item>
 
           <q-expansion-item
             :content-inset-level="0"
             expand-separator
             label="Gene"
             group="group"
-            default-opened
           >
             <q-item
               clickable
@@ -80,9 +97,33 @@
               v-ripple
               style="background-color:#f8f4e1"
             >
-              <q-item-section class="text-black">Transcipts</q-item-section>
+              <q-item-section class="text-black">Transposon</q-item-section>
             </q-item>
           </q-expansion-item>
+
+          <q-item
+            clickable
+            v-ripple
+            active-class="my-menu-link"
+          >
+            <q-item-section>Chromosome</q-item-section>
+          </q-item>
+
+          <q-item
+            clickable
+            v-ripple
+            active-class="my-menu-link"
+          >
+            <q-item-section>Transcriptome</q-item-section>
+          </q-item>
+
+          <q-item
+            clickable
+            v-ripple
+            active-class="my-menu-link"
+          >
+            <q-item-section>KEGG pathway</q-item-section>
+          </q-item>
 
           <q-item
             clickable
@@ -99,6 +140,14 @@
             label="Tools"
             group="group"
           >
+            <q-item
+              clickable
+              v-ripple
+              to=""
+              style="background-color:#f8f4e1"
+            >
+              <q-item-section class="text-black">3D genome brower</q-item-section>
+            </q-item>
             <q-item
               clickable
               v-ripple
@@ -132,14 +181,29 @@
               <q-item-section class="text-black">Gene family prediction</q-item-section>
             </q-item>
           </q-expansion-item>
-          <q-item
-            clickable
-            v-ripple
-            active-class="my-menu-link"
-            to="/Links"
+
+          <q-expansion-item
+            :content-inset-level="0"
+            expand-separator
+            label="Links"
+            group="group"
           >
-            <q-item-section>Links</q-item-section>
-          </q-item>
+            <q-item
+              clickable
+              v-ripple
+              style="background-color:#f8f4e1"
+              to="/Links"
+            >
+              <q-item-section class="text-black">Database</q-item-section>
+            </q-item>
+            <q-item
+              clickable
+              v-ripple
+              style="background-color:#f8f4e1"
+            >
+              <q-item-section class="text-black">Entomologist</q-item-section>
+            </q-item>
+          </q-expansion-item>
           <q-item
             clickable
             v-ripple
@@ -158,11 +222,11 @@
         </q-list>
         <q-separator color="white" />
         <br>
-        <span>Copy right ©2021 InsectBase. <br />Designed by <i> Li F. Lab.</i></span>
+        <span>©2021 InsectBase. <br />Designed by <i> Li F. Lab.</i></span>
       </q-scroll-area>
     </q-drawer>
 
-    <q-page-container class="bg-light-green-3">
+    <q-page-container class="bg-light-green-2">
       <router-view />
     </q-page-container>
   </q-layout>

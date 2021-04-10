@@ -3,8 +3,8 @@
     <div class="q-pa-md">
       <q-card class="my-card shadow-0 q-px-lg">
         <q-card-section>
-          <strong class="text-green-8 text-h4">Links</strong> . Lorem
-          ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          <span class="text-h5 text-green-10 text-bold"> Links</span>.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
           consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
           dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -21,72 +21,44 @@
       <br />
       <q-card class="my-card shadow-0 q-pa-lg">
         <q-card-section>
-          <q-splitter
-            v-model="splitterModel"
-            style="height: 250px"
+          <q-list
+            class="rounded-borders shadow-2 q-pa-md"
+            v-for="link in links"
+            :key="link.name"
+            :name="link.name"
           >
-            <template v-slot:before>
-              <q-tabs
-                v-model="tab"
-                vertical
-                class="text-teal"
+            <q-item>
+              <q-item-section avatar>
+                <q-icon
+                  name="language"
+                  color="green-8"
+                  size="34px"
+                />
+              </q-item-section>
+              <q-item-section class="col-2 gt-sm">
+                <q-item-label class="q-mt-sm text-bold text-h6">{{link.name}}</q-item-label>
+              </q-item-section>
+              <q-item-section>
+                <q-item-label>
+                  <span class="text-grey-8">{{link.info}}</span>
+                </q-item-label>
+              </q-item-section>
+              <q-item-section
+                top
+                side
               >
-                <q-tab
-                  name="mails"
-                  label="NCBI"
-                />
-                <q-tab
-                  name="alarms"
-                  label="FlyBase"
-                />
-                <q-tab
-                  name="movies"
-                  label="LepBase"
-                />
-              </q-tabs>
-            </template>
-
-            <template v-slot:after>
-              <q-tab-panels
-                v-model="tab"
-                animated
-                swipeable
-                vertical
-                transition-prev="jump-up"
-                transition-next="jump-up"
-              >
-                <q-tab-panel name="mails">
-                  <div class="text-h4 q-mb-md">NCBI</div>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-                    praesentium cumque magnam odio iure quidem, quod illum numquam
-                    possimus obcaecati commodi minima assumenda consectetur culpa fuga
-                    nulla ullam. In, libero.
-                  </p>
-                </q-tab-panel>
-
-                <q-tab-panel name="alarms">
-                  <div class="text-h4 q-mb-md">FlyBase</div>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-                    praesentium cumque magnam odio iure quidem, quod illum numquam
-                    possimus obcaecati commodi minima assumenda consectetur culpa fuga
-                    nulla ullam. In, libero.
-                  </p>
-                </q-tab-panel>
-
-                <q-tab-panel name="movies">
-                  <div class="text-h4 q-mb-md">LepBase</div>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-                    praesentium cumque magnam odio iure quidem, quod illum numquam
-                    possimus obcaecati commodi minima assumenda consectetur culpa fuga
-                    nulla ullam. In, libero.
-                  </p>
-                </q-tab-panel>
-              </q-tab-panels>
-            </template>
-          </q-splitter>
+                <div class="text-grey-8 q-gutter-xs">
+                  <q-btn
+                    icon-right="send"
+                    color="teal-4"
+                    type="a"
+                    target="_blank"
+                    :href="link.url"
+                  />
+                </div>
+              </q-item-section>
+            </q-item>
+          </q-list>
         </q-card-section>
       </q-card>
     </div>
@@ -94,12 +66,14 @@
 </template>
 <script>
 import { ref } from "vue";
+import links from "../data/links.json";
 
 export default {
   setup () {
     return {
-      tab: ref("mails"),
+      tab: ref("flybase"),
       splitterModel: ref(20),
+      links
     };
   },
 };

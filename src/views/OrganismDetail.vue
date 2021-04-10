@@ -28,17 +28,9 @@
           <div class="q-pa-md">
             <q-chip
               clickable
-              color="primary"
-              text-color="white"
-              icon="event"
-            >
-              Add to calendar
-            </q-chip>
-            <q-chip
-              clickable
               icon="bookmark"
             >
-              Bookmark
+              NCBI
             </q-chip>
             <q-chip
               clickable
@@ -46,7 +38,7 @@
               text-color="white"
               icon="bookmark"
             >
-              Bookmark
+              WIKI
             </q-chip>
           </div>
         </q-card-section>

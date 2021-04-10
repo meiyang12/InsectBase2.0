@@ -3,7 +3,9 @@
     <div class="q-pa-md">
       <q-card class="my-card shadow-0 q-px-lg">
         <q-card-section>
-          <strong class="text-green-8 text-h4">Gene family</strong><br>
+          <span class="text-h5 text-green-10 text-bold">
+            Gene family
+          </span>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
           consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -21,249 +23,34 @@
       <br>
       <q-card class="my-card shadow-0 q-px-lg">
         <q-card-section class="q-pt-lg">
-          <div class="q-gutter-lg">
+          <div class="q-gutter-md q-pa-md">
             <q-checkbox
+              v-for="item in items"
+              :key="item"
               v-model="selection"
-              label="Teal"
-              val="Teal"
+              :label="item"
+              :val="item"
               color="teal"
             />
-            <q-checkbox
-              v-model="selection"
-              label="Orange"
-              val="Orange"
-              color="orange"
-            />
-            <q-checkbox
-              v-model="selection"
-              label="Red"
-              val="Red"
-              color="red"
-            />
-            <q-checkbox
-              v-model="selection"
-              label="Cyan"
-              val="Cyan"
-              color="cyan"
-            />
-            <q-checkbox
-              v-model="selection"
-              label="Orange"
-              val="Orange"
-              color="orange"
-            />
-            <q-checkbox
-              v-model="selection"
-              label="Red"
-              val="Red"
-              color="red"
-            />
-            <q-checkbox
-              v-model="selection"
-              label="Cyan"
-              val="Cyan"
-              color="cyan"
-            />
-            <q-checkbox
-              v-model="selection"
-              label="Orange"
-              val="Orange"
-              color="orange"
-            />
-            <q-checkbox
-              v-model="selection"
-              label="Red"
-              val="Red"
-              color="red"
-            />
           </div>
-          <div class="q-gutter-lg">
-            <q-checkbox
-              v-model="selection"
-              label="Orange"
-              val="Orange"
-              color="orange"
-            />
-            <q-checkbox
-              v-model="selection"
-              label="Orange"
-              val="Orange"
-              color="orange"
-            />
-            <q-checkbox
-              v-model="selection"
-              label="Red"
-              val="Red"
-              color="red"
-            />
-            <q-checkbox
-              v-model="selection"
-              label="Cyan"
-              val="Cyan"
-              color="cyan"
-            />
-            <q-checkbox
-              v-model="selection"
-              label="Orange"
-              val="Orange"
-              color="orange"
-            />
-            <q-checkbox
-              v-model="selection"
-              label="Red"
-              val="Red"
-              color="red"
-            />
-            <q-checkbox
-              v-model="selection"
-              label="Cyan"
-              val="Cyan"
-              color="cyan"
-            />
-            <q-checkbox
-              v-model="selection"
-              label="Orange"
-              val="Orange"
-              color="orange"
-            />
-            <q-checkbox
-              v-model="selection"
-              label="Red"
-              val="Red"
-              color="red"
-            />
-          </div>
-          <div class="q-gutter-lg">
-            <q-checkbox
-              v-model="selection"
-              label="Orange"
-              val="Orange"
-              color="orange"
-            />
-            <q-checkbox
-              v-model="selection"
-              label="Orange"
-              val="Orange"
-              color="orange"
-            />
-            <q-checkbox
-              v-model="selection"
-              label="Red"
-              val="Red"
-              color="red"
-            />
-            <q-checkbox
-              v-model="selection"
-              label="Cyan"
-              val="Cyan"
-              color="cyan"
-            />
-            <q-checkbox
-              v-model="selection"
-              label="Orange"
-              val="Orange"
-              color="orange"
-            />
-            <q-checkbox
-              v-model="selection"
-              label="Red"
-              val="Red"
-              color="red"
-            />
-            <q-checkbox
-              v-model="selection"
-              label="Cyan"
-              val="Cyan"
-              color="cyan"
-            />
-            <q-checkbox
-              v-model="selection"
-              label="Orange"
-              val="Orange"
-              color="orange"
-            />
-            <q-checkbox
-              v-model="selection"
-              label="Red"
-              val="Red"
-              color="red"
-            />
-          </div>
-          <div class="q-gutter-lg">
-            <q-checkbox
-              v-model="selection"
-              label="Orange"
-              val="Orange"
-              color="orange"
-            />
-            <q-checkbox
-              v-model="selection"
-              label="Orange"
-              val="Orange"
-              color="orange"
-            />
-            <q-checkbox
-              v-model="selection"
-              label="Red"
-              val="Red"
-              color="red"
-            />
-            <q-checkbox
-              v-model="selection"
-              label="Cyan"
-              val="Cyan"
-              color="cyan"
-            />
-            <q-checkbox
-              v-model="selection"
-              label="Orange"
-              val="Orange"
-              color="orange"
-            />
-            <q-checkbox
-              v-model="selection"
-              label="Red"
-              val="Red"
-              color="red"
-            />
-            <q-checkbox
-              v-model="selection"
-              label="Cyan"
-              val="Cyan"
-              color="cyan"
-            />
-            <q-checkbox
-              v-model="selection"
-              label="Orange"
-              val="Orange"
-              color="orange"
-            />
-            <q-checkbox
-              v-model="selection"
-              label="Red"
-              val="Red"
-              color="red"
-            />
-
-          </div>
-          <br>
           <q-separator />
           <br>
           <q-select
-            rounded
             outlined
             v-model="model"
             :options="options"
+            class="text-center"
             style="max-width: 20%"
           />
           <q-btn
             class="q-ma-md"
-            color="green"
+            color="primary"
             label="Search"
           />
           <q-btn
             class="q-ma-md"
             color="primary"
+            outline
             label="Reset"
             @click="resetModels"
           />
@@ -285,7 +72,7 @@ import { ref } from 'vue'
 
 export default {
   setup () {
-    const selection = ref(['Teal']);
+    const selection = ref(['ABC transporter']);
 
     const columns = [
       {
@@ -416,10 +203,45 @@ export default {
         selection.value = []
       },
 
+      items: ["ABC transporter",
+        "acetylcholine receptor",
+        "Acetylcholinesterase",
+        "alkaline phosphatase",
+        "aminopeptidase",
+        "carboxylesterase",
+        "Chitinase",
+        "chloride channel",
+        "CTL",
+        "cuticular protein",
+        "cytochrome p450",
+        "DNA methyltransferase",
+        "ecdysone receptor",
+        "G protein",
+        "GABA",
+        "glutamate-gated chloride channel",
+        "glutathione s-transferase",
+        "glycosyltransferase",
+        "gustatory receptor",
+        "heat shock protein",
+        "hydrolase",
+        "immunoglobulin",
+        "low density lipoprotein",
+        "odorant receptor",
+        "odorant-binding protein",
+        "Painless",
+        "pheromone",
+        "protease inhibitor",
+        "Ryanodine receptor",
+        "sensory neuron membrane protein",
+        "serpin",
+        "sirtuin",
+        "sodium channel",
+        "sugar transporter",
+        "superoxide dismutase",
+        "Vitellogenin receptor",],
+
       model: ref('Mengenilla moldrzyki'),
-      options: [
-        'Google', 'Facebook', 'Twitter', 'Apple', 'Oracle'
-      ],
+      options: [],
 
       columns,
       rows

@@ -3,7 +3,7 @@
     <div class="q-pa-md">
       <q-card class="my-card shadow-0 q-px-lg">
         <q-card-section>
-          <strong class="text-green-8 text-h4">Gene family annotation</strong> . Lorem
+          <span class="text-green-10 text-h5 text-bold">Gene family annotation</span>. Lorem
           ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
           consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -27,7 +27,6 @@
             class="q-gutter-md q-pa-md"
           >
             <q-select
-              rounded
               outlined
               v-model="model"
               :options="options"

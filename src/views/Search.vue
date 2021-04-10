@@ -3,7 +3,7 @@
     <div class="q-pa-md">
       <q-card class="my-card shadow-0 q-px-lg">
         <q-card-section>
-          <strong class="text-green-8 text-h5">Search</strong> . Lorem
+          <span class="text-green-10 text-h5 text-bold">Search</span> . Lorem
           ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
           consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -21,94 +21,103 @@
       <br />
       <q-card class="my-card shadow-0 q-pa-lg">
         <q-card-section>
-          <div class="q-gutter-md">
-            <q-input
-              style="max-width: 600px"
-              v-model="text"
-              label="Search"
-              :dense="dense"
-            >
-              <template v-slot:append>
-                <q-icon
-                  v-if="text !== ''"
-                  name="close"
-                  @click="text = ''"
-                  class="cursor-pointer"
-                />
-
-              </template>
-              <template v-slot:after>
-                <q-btn
-                  color="primary"
-                  label="Search"
-                />
-              </template>
-            </q-input>
-            <q-expansion-item
-              v-model="expanded"
-              icon="search"
-              label="Advanced search"
-              header-class="bg-blue-4 text-white"
-            >
-              <q-card>
-                <q-card-section class="q-col-gutter-xs">
-                  <q-select
-                    style="max-width: 600px"
-                    outlined
-                    multiple
-                    use-chips
-                    stack-label
-                    v-model="modelMultiple1"
-                    :options="options2"
-                    label="Type"
+          <q-form
+            @submit="onSubmit"
+            @reset="onReset"
+            class="q-gutter-md"
+          >
+            <div class="q-gutter-md">
+              <q-input
+                style="max-width: 600px"
+                v-model="text"
+                label="Search"
+                :dense="dense"
+              >
+                <template v-slot:append>
+                  <q-icon
+                    v-if="text !== ''"
+                    name="close"
+                    @click="text = ''"
+                    class="cursor-pointer"
                   />
-                  <div class="row q-col-gutter-xs">
+                </template>
+                <template v-slot:after>
+                  <q-btn
+                    color="primary"
+                    label="Search"
+                    type="submit"
+                  />
+                  <q-btn
+                    label="Reset"
+                    type="reset"
+                    outline
+                    color="primary"
+                    class="q-ml-sm"
+                  />
+                </template>
+              </q-input>
+              <q-expansion-item
+                v-model="expanded"
+                icon="search"
+                label="Advanced search"
+                header-class="bg-blue-4 text-white"
+              >
+                <q-card>
+                  <q-card-section class="q-col-gutter-xs">
                     <q-select
-                      class="col-3"
+                      style="max-width: 600px"
                       outlined
                       multiple
                       use-chips
                       stack-label
                       v-model="modelMultiple"
-                      :options="options2"
-                      label="Order"
+                      :options="options"
+                      label="Type"
                     />
-                    <q-select
-                      class="col-3"
-                      outlined
-                      multiple
-                      use-chips
-                      stack-label
-                      v-model="modelMultiple"
-                      :options="options2"
-                      label="Family"
-                    />
-                    <q-select
-                      class="col-3"
-                      outlined
-                      multiple
-                      use-chips
-                      stack-label
-                      v-model="modelMultiple"
-                      :options="options2"
-                      label="Genus"
-                    />
-                    <q-select
-                      class="col-3"
-                      outlined
-                      multiple
-                      use-chips
-                      stack-label
-                      v-model="modelMultiple"
-                      :options="options1"
-                      label="Species"
-                    />
-                  </div>
+                    <div class="row q-col-gutter-xs">
+                      <q-select
+                        class="col-3"
+                        outlined
+                        use-chips
+                        stack-label
+                        v-model="model1"
+                        :options="options2"
+                        label="Order"
+                      />
+                      <q-select
+                        class="col-3"
+                        outlined
+                        use-chips
+                        stack-label
+                        v-model="model2"
+                        :options="options2"
+                        label="Family"
+                      />
+                      <q-select
+                        class="col-3"
+                        outlined
+                        use-chips
+                        stack-label
+                        v-model="model3"
+                        :options="options2"
+                        label="Genus"
+                      />
+                      <q-select
+                        class="col-3"
+                        outlined
+                        use-chips
+                        stack-label
+                        v-model="model4"
+                        :options="options2"
+                        label="Species"
+                      />
+                    </div>
 
-                </q-card-section>
-              </q-card>
-            </q-expansion-item>
-          </div>
+                  </q-card-section>
+                </q-card>
+              </q-expansion-item>
+            </div>
+          </q-form>
         </q-card-section>
         <q-separator spaced />
         <q-card-section>
@@ -222,8 +231,8 @@ export default {
       text,
       ph: ref(""),
       dense: ref(false),
-      modelMultiple1: ref(["Protein coding gene", "miRNA", "lncRNA"]),
-      options1: ["Protein coding gene", "miRNA", "lncRNA"],
+      modelMultiple: ref(["Protein coding gene", "miRNA", "lncRNA"]),
+      options: ["Protein coding gene", "miRNA", "lncRNA"],
 
       //  modelMultiple2: ref(["Protein coding gene", "miRNA", "lncRNA"]),
       options2: [],

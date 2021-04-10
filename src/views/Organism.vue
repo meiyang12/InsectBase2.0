@@ -3,7 +3,7 @@
     <div class="q-pa-md">
       <q-card class="my-card shadow-0 q-px-lg">
         <q-card-section>
-          <strong class="text-green-8 text-h4">Organism</strong> . Lorem
+          <span class="text-green-10 text-h5 text-bold">Organism</span> . Lorem
           ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
           consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -31,11 +31,14 @@
               <div class="q-pa-md">
                 <q-input
                   ref="filterRef"
-                  rounded
-                  outlined
+                  filled
+                  bg-color='green-1'
                   v-model="filter"
                   label="Search"
                 >
+                  <template v-slot:prepend>
+                    <q-icon name="search" />
+                  </template>
                   <template v-slot:append>
                     <q-icon
                       v-if="filter !== ''"
@@ -71,7 +74,7 @@
                   <q-card class="my-card">
                     <q-card-section horizontal>
                       <q-card-section class="q-pt-xs">
-                        <div class="text-overline text-orange-9">Overline</div>
+                        <div class="text-overline text-orange-9">{{item.class}}</div>
                         <div
                           class="text-h5 q-mt-sm q-mb-xs text-italic"
                           v-if="item.class == 'genus' || item.class == 'species'"
@@ -100,7 +103,6 @@
                       <q-separator />
                       <q-card-actions class="justify-center">
                         <q-btn
-                          outline
                           color="secondary"
                           label="Learn More"
                           :to="{ name: 'OrganismDetail', params: { id: item.id }}"
@@ -137,7 +139,7 @@ export default {
       filter,
       filterRef,
       splitterModel: ref(40),
-      selected: ref("Food"),
+      selected: ref("Insecta"),
 
       simple: genome,
 
