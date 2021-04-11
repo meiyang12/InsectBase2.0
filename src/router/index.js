@@ -37,9 +37,19 @@ const routes = [{
     component: () => import('../views/Pcg.vue')
   },
   {
+    path: '/Transcriptome',
+    name: 'Transcriptome',
+    component: () => import('../views/Transcriptome.vue')
+  },
+  {
     path: '/geneFamily',
     name: 'geneFamily',
     component: () => import('../views/geneFamily.vue')
+  },
+  {
+    path: '/3DGBrowser',
+    name: '3DGBrowser',
+    component: () => import('../views/3DGBrowser.vue')
   },
   {
     path: '/JBrowse',

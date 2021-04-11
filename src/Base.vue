@@ -113,6 +113,7 @@
             clickable
             v-ripple
             active-class="my-menu-link"
+            to="/Transcriptome"
           >
             <q-item-section>Transcriptome</q-item-section>
           </q-item>
@@ -143,10 +144,10 @@
             <q-item
               clickable
               v-ripple
-              to=""
+              to="/3DGBrowser"
               style="background-color:#f8f4e1"
             >
-              <q-item-section class="text-black">3D genome brower</q-item-section>
+              <q-item-section class="text-black">3D Genome Browser</q-item-section>
             </q-item>
             <q-item
               clickable

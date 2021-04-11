@@ -24,21 +24,24 @@
           <q-form
             @submit="onSubmit"
             @reset="onReset"
-            class="q-gutter-md q-pa-md"
+            class="q-pa-md"
           >
-            <q-select
-              outlined
-              v-model="blast"
-              :options="blastoptions"
-              style="max-width: 10%"
-            />
-            <q-select
-              outlined
-              v-model="evalue"
-              :options="evalueoptions"
-              style="max-width: 10%"
-            />
-            <div style="max-width: 80%;">
+            <div class="row q-gutter-md">
+              <q-select
+                outlined
+                v-model="blast"
+                :options="blastoptions"
+                style="max-width: 10%"
+              />
+              <q-select
+                outlined
+                v-model="evalue"
+                :options="evalueoptions"
+                style="max-width: 10%"
+              />
+            </div>
+            <q-separator spaced />
+            <div>
               <q-input
                 v-model="text"
                 outlined
@@ -57,6 +60,7 @@
                 </template>
               </q-file>
             </div>
+            <q-separator spaced />
             <div>
               <q-btn
                 label="Submit"

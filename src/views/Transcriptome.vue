@@ -4,7 +4,7 @@
       <q-card class="my-card shadow-0 q-px-lg">
         <q-card-section>
           <span class="text-h5 text-green-10 text-bold">
-            Gene family
+            Transcriptome
           </span>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
@@ -23,27 +23,39 @@
       <br>
       <q-card class="my-card shadow-0 q-px-lg">
         <q-card-section class="q-pt-lg">
-          <div class="q-gutter-xs q-pa-md">
-            <q-checkbox
-              v-for="item in items"
-              :key="item"
-              v-model="selection"
-              :label="item"
-              :val="item"
-              color="teal"
+          <br>
+          <div class="row q-gutter-xs">
+            <q-select
+              outlined
+              label='Species'
+              v-model="model1"
+              :options="options"
+              class="text-center"
+            />
+            <q-select
+              outlined
+              label='Tissue'
+              v-model="model2"
+              :options="options"
+              class="text-center"
+            />
+            <q-select
+              outlined
+              label='Age'
+              v-model="model3"
+              :options="options"
+              class="text-center"
+            />
+            <q-select
+              outlined
+              label='Species'
+              v-model="model4"
+              :options="options"
+              class="text-center"
             />
           </div>
-          <q-separator />
-          <br>
-          <q-select
-            outlined
-            v-model="model"
-            :options="options"
-            class="text-center"
-            style="max-width: 20%"
-          />
           <q-btn
-            class="q-ma-md"
+            class="q-my-md"
             color="primary"
             label="Search"
           />
@@ -72,8 +84,6 @@ import { ref } from 'vue'
 
 export default {
   setup () {
-    const selection = ref(['ABC transporter']);
-
     const columns = [
       {
         name: 'name',
@@ -197,51 +207,17 @@ export default {
     ]
 
     return {
-      selection,
+      model1: ref('All species'),
+      options1: [],
 
-      resetModels () {
-        selection.value = []
-      },
+      model2: ref('All tissue'),
+      options2: [],
 
-      items: ["ABC transporter",
-        "acetylcholine receptor",
-        "Acetylcholinesterase",
-        "alkaline phosphatase",
-        "aminopeptidase",
-        "carboxylesterase",
-        "Chitinase",
-        "chloride channel",
-        "CTL",
-        "cuticular protein",
-        "cytochrome p450",
-        "DNA methyltransferase",
-        "ecdysone receptor",
-        "G protein",
-        "GABA",
-        "glutamate-gated chloride channel",
-        "glutathione s-transferase",
-        "glycosyltransferase",
-        "gustatory receptor",
-        "heat shock protein",
-        "hydrolase",
-        "immunoglobulin",
-        "low density lipoprotein",
-        "odorant receptor",
-        "odorant-binding protein",
-        "Painless",
-        "pheromone",
-        "protease inhibitor",
-        "Ryanodine receptor",
-        "sensory neuron membrane protein",
-        "serpin",
-        "sirtuin",
-        "sodium channel",
-        "sugar transporter",
-        "superoxide dismutase",
-        "Vitellogenin receptor",],
+      model3: ref('All age'),
+      options3: [],
 
-      model: ref('Mengenilla moldrzyki'),
-      options: [],
+      model4: ref('All condition'),
+      options4: [],
 
       columns,
       rows
